@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="color" type="integer" />
+      <attribute id="1" title="weight" type="integer" />
+      <attribute id="2" title="size" type="integer" />
+    </attributes>
+    <nodes>
+      <node id="kisumu" label="kisumu" />
+      <node id="masaka" label="masaka" />
+      <node id="childrens" label="childrens">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="people" label="people" />
+      <node id="helped" label="helped">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="uganda" label="uganda" />
+      <node id="kenya" label="kenya" />
+      <node id="conserve" label="conserve" />
+      <node id="rape" label="rape" />
+      <node id="swedish" label="swedish" />
+      <node id="united" label="united" />
+      <node id="agency" label="agency">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="usaid" label="usaid" />
+      <node id="international" label="international">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="development" label="development">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="life" label="life" />
+      <node id="rain" label="rain" />
+      <node id="water" label="water" />
+      <node id="abuse" label="abuse" />
+      <node id="cases" label="cases" />
+      <node id="states" label="states">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="skills" label="skills" />
+      <node id="drug" label="drug" />
+      <node id="nairobi" label="nairobi">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="project" label="project" />
+      <node id="relief" label="relief" />
+      <node id="clean" label="clean" />
+      <node id="buddukiro" label="buddukiro" />
+      <node id="order" label="order" />
+      <node id="kibera" label="kibera">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="kisumu" target="kenya" weight="9" />
+      <edge id="1" source="masaka" target="uganda" weight="9" />
+      <edge id="2" source="childrens" target="agency" weight="9" />
+      <edge id="3" source="childrens" target="buddukiro" weight="9" />
+      <edge id="4" source="people" target="helped" weight="9" />
+      <edge id="5" source="helped" target="project" weight="9" />
+      <edge id="6" source="kenya" target="nairobi" weight="36" />
+      <edge id="7" source="conserve" target="order" weight="9" />
+      <edge id="8" source="rape" target="cases" weight="16" />
+      <edge id="9" source="swedish" target="international" weight="9" />
+      <edge id="10" source="united" target="states" weight="36" />
+      <edge id="11" source="agency" target="states" weight="36" />
+      <edge id="12" source="agency" target="international" weight="36" />
+      <edge id="13" source="agency" target="development" weight="25" />
+      <edge id="14" source="usaid" target="kibera" weight="9" />
+      <edge id="15" source="international" target="development" weight="121" />
+      <edge id="16" source="development" target="relief" weight="16" />
+      <edge id="17" source="life" target="skills" weight="9" />
+      <edge id="18" source="rain" target="water" weight="9" />
+      <edge id="19" source="water" target="clean" weight="16" />
+      <edge id="20" source="abuse" target="drug" weight="9" />
+      <edge id="21" source="nairobi" target="kibera" weight="16" />
+    </edges>
+  </graph>
+</gexf>

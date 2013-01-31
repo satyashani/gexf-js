@@ -4,11 +4,9 @@
 
 ### Newest features ##
 
-URLs in attributes can now be replaced by hyperlinks using the replaceUrls option in config.js
-
-Edge weights are now listed. This can be disabled with the showEdgeWeight option in config.js
-
-Gexf-JS now speaks 7 languages: English, French, Italian, Spanish, Finnish, Turkish and Greek !
+PLugins can be developed for GexfJS lyaout. Currently FRUCHTERMAN AND REINGOLD and Yi Fan Hu
+implemented and tested.
+i18n has speaks 7 languages: English, French, Italian, Spanish, Finnish, Turkish and Greek !
 
 ### Contributors ##
 
@@ -40,7 +38,8 @@ Gexf-JS now speaks 7 languages: English, French, Italian, Spanish, Finnish, Turk
 
 1. Export your graph from Gephi as a GEXF file
 2. Put it in the gexf-js directory
-3. Modify config.js to point to your GEXF File and tune the interface.
+3. Modify config.js for requireed settings.
+4. Provide Links with urls of gexf files and call GexfJS MapFromLink() method on click on links 
 
 You can view more Gexf files by pointing your browser to index.html#Filename.gexf
 

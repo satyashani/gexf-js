@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="color" type="integer" />
+      <attribute id="1" title="weight" type="integer" />
+      <attribute id="2" title="size" type="integer" />
+    </attributes>
+    <nodes>
+      <node id="walking" label="walking">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="help" label="help">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="just" label="just" />
+      <node id="money" label="money" />
+      <node id="lack" label="lack">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="find" label="find" />
+      <node id="years" label="years">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="leads" label="leads">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="laini" label="laini">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="clinic" label="clinic" />
+      <node id="thanks" label="thanks">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="human" label="human" />
+      <node id="world" label="world" />
+      <node id="touch" label="touch">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="sponsorship" label="sponsorship" />
+      <node id="nets" label="nets" />
+      <node id="children" label="children" />
+      <node id="poorly" label="poorly">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="lessons" label="lessons" />
+      <node id="toilets" label="toilets">
+        <attvalues>
+          <attvalue for="0" value="80" />
+          <attvalue for="1" value="16" />
+          <attvalue for="2" value="576" />
+        </attvalues>
+      </node>
+      <node id="toiletsamref" label="toiletsamref">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="thank" label="thank" />
+      <node id="organisation" label="organisation">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="ngo" label="ngo" />
+      <node id="charge" label="charge" />
+      <node id="spread" label="spread">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="treatment" label="treatment" />
+      <node id="circumcision" label="circumcision" />
+      <node id="take" label="take" />
+      <node id="good" label="good">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="diseases" label="diseases">
+        <attvalues>
+          <attvalue for="0" value="35" />
+          <attvalue for="1" value="7" />
+          <attvalue for="2" value="252" />
+        </attvalues>
+      </node>
+      <node id="hivaids" label="hivaids" />
+      <node id="get" label="get" />
+      <node id="food" label="food" />
+      <node id="cholera" label="cholera">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="lain" label="lain" />
+      <node id="suffering" label="suffering">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="tanks" label="tanks" />
+      <node id="hands" label="hands" />
+      <node id="schools" label="schools" />
+      <node id="sanitary" label="sanitary">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="drinking" label="drinking">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="walk" label="walk" />
+      <node id="day" label="day">
+        <attvalues>
+          <attvalue for="0" value="30" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="216" />
+        </attvalues>
+      </node>
+      <node id="secondary" label="secondary" />
+      <node id="discovered" label="discovered" />
+      <node id="school" label="school">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="washing" label="washing" />
+      <node id="name" label="name" />
+      <node id="mothers" label="mothers">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="morning" label="morning">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="large" label="large">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="mosquito" label="mosquito" />
+      <node id="undugu" label="undugu" />
+      <node id="shortage" label="shortage">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="small" label="small" />
+      <node id="kichinjio" label="kichinjio">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="nairobi" label="nairobi">
+        <attvalues>
+          <attvalue for="0" value="35" />
+          <attvalue for="1" value="7" />
+          <attvalue for="2" value="252" />
+        </attvalues>
+      </node>
+      <node id="kibera" label="kibera">
+        <attvalues>
+          <attvalue for="0" value="145" />
+          <attvalue for="1" value="29" />
+          <attvalue for="2" value="1044" />
+        </attvalues>
+      </node>
+      <node id="clothes" label="clothes" />
+      <node id="province" label="province" />
+      <node id="disaster" label="disaster">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="people" label="people">
+        <attvalues>
+          <attvalue for="0" value="205" />
+          <attvalue for="1" value="41" />
+          <attvalue for="2" value="1476" />
+        </attvalues>
+      </node>
+      <node id="national" label="national">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="village" label="village" />
+      <node id="reduce" label="reduce" />
+      <node id="group" label="group" />
+      <node id="born" label="born" />
+      <node id="rate" label="rate" />
+      <node id="taught" label="taught" />
+      <node id="election" label="election" />
+      <node id="silanga" label="silanga">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="borne" label="borne">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="closer" label="closer">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="living" label="living">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="scale" label="scale">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="visiting" label="visiting" />
+      <node id="giving" label="giving" />
+      <node id="kakamega" label="kakamega">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="supplied" label="supplied" />
+      <node id="research" label="research" />
+      <node id="written" label="written" />
+      <node id="health" label="health">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="kiberasilanga" label="kiberasilanga">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="international" label="international" />
+      <node id="mashimoni" label="mashimoni">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="contaminated" label="contaminated" />
+      <node id="cause" label="cause" />
+      <node id="red" label="red">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="told" label="told">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="lactating" label="lactating" />
+      <node id="knew" label="knew" />
+      <node id="business" label="business" />
+      <node id="soweto" label="soweto">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="remembered" label="remembered" />
+      <node id="million" label="million" />
+      <node id="free" label="free">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="standard" label="standard">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="water" label="water">
+        <attvalues>
+          <attvalue for="0" value="90" />
+          <attvalue for="1" value="18" />
+          <attvalue for="2" value="648" />
+        </attvalues>
+      </node>
+      <node id="boxes" label="boxes">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="members" label="members" />
+      <node id="slum" label="slum" />
+      <node id="based" label="based" />
+      <node id="post" label="post" />
+      <node id="come" label="come" />
+      <node id="change" label="change" />
+      <node id="care" label="care">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="behaviour" label="behaviour">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="search" label="search" />
+      <node id="kayole" label="kayole">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="getting" label="getting" />
+      <node id="months" label="months">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="days" label="days">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="thing" label="thing">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="important" label="important" />
+      <node id="bone" label="bone" />
+      <node id="smoke" label="smoke" />
+      <node id="poverty" label="poverty" />
+      <node id="male" label="male" />
+      <node id="habit" label="habit" />
+      <node id="hospital" label="hospital">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="288" />
+        </attvalues>
+      </node>
+      <node id="road" label="road">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="overloadment" label="overloadment">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="named" label="named" />
+      <node id="benefited" label="benefited" />
+      <node id="gone" label="gone" />
+      <node id="municipality" label="municipality">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="primary" label="primary" />
+      <node id="community" label="community">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="due" label="due" />
+      <node id="done" label="done" />
+      <node id="jackets" label="jackets">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="fees" label="fees" />
+      <node id="use" label="use">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="288" />
+        </attvalues>
+      </node>
+      <node id="service" label="service" />
+      <node id="support" label="support">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="flying" label="flying">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="288" />
+        </attvalues>
+      </node>
+      <node id="two" label="two">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="long" label="long">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="infected" label="infected" />
+      <node id="supplying" label="supplying" />
+      <node id="basic" label="basic" />
+      <node id="improve" label="improve">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="happy" label="happy" />
+      <node id="building" label="building" />
+      <node id="life" label="life" />
+      <node id="started" label="started" />
+      <node id="offered" label="offered" />
+      <node id="took" label="took">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="slums" label="slums" />
+      <node id="western" label="western" />
+      <node id="known" label="known">
+        <attvalues>
+          <attvalue for="0" value="45" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="324" />
+        </attvalues>
+      </node>
+      <node id="smoking" label="smoking">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="hole" label="hole" />
+      <node id="sex" label="sex" />
+      <node id="eat" label="eat" />
+      <node id="distance" label="distance">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="wore" label="wore">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="dangerous" label="dangerous" />
+      <node id="work" label="work">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="heshe" label="heshe" />
+      <node id="see" label="see" />
+      <node id="saba" label="saba">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="premarital" label="premarital" />
+      <node id="project" label="project">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="near" label="near" />
+      <node id="decided" label="decided" />
+      <node id="dirty" label="dirty" />
+      <node id="uses" label="uses" />
+      <node id="providing" label="providing">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="didnt" label="didnt" />
+      <node id="called" label="called">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="makina" label="makina" />
+      <node id="toilet" label="toilet">
+        <attvalues>
+          <attvalue for="0" value="55" />
+          <attvalue for="1" value="11" />
+          <attvalue for="2" value="396" />
+        </attvalues>
+      </node>
+      <node id="stated" label="stated">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="moved" label="moved" />
+      <node id="lasted" label="lasted" />
+      <node id="helped" label="helped">
+        <attvalues>
+          <attvalue for="0" value="55" />
+          <attvalue for="1" value="11" />
+          <attvalue for="2" value="396" />
+        </attvalues>
+      </node>
+      <node id="kenya" label="kenya">
+        <attvalues>
+          <attvalue for="0" value="70" />
+          <attvalue for="1" value="14" />
+          <attvalue for="2" value="504" />
+        </attvalues>
+      </node>
+      <node id="education" label="education">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="saw" label="saw">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="bore" label="bore" />
+      <node id="different" label="different" />
+      <node id="built" label="built">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="dying" label="dying" />
+      <node id="doctor" label="doctor">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="member" label="member" />
+      <node id="lindi" label="lindi" />
+      <node id="build" label="build">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="really" label="really">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="poor" label="poor" />
+      <node id="towels" label="towels" />
+      <node id="monday" label="monday" />
+      <node id="provided" label="provided" />
+      <node id="african" label="african" />
+      <node id="problems" label="problems" />
+      <node id="waterborne" label="waterborne" />
+      <node id="helping" label="helping">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="said" label="said">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="arrived" label="arrived" />
+      <node id="services" label="services" />
+      <node id="researche" label="researche" />
+      <node id="man" label="man" />
+      <node id="ago" label="ago" />
+      <node id="night" label="night" />
+      <node id="forever" label="forever" />
+      <node id="africa" label="africa" />
+      <node id="amref" label="amref">
+        <attvalues>
+          <attvalue for="0" value="285" />
+          <attvalue for="1" value="57" />
+          <attvalue for="2" value="2052" />
+        </attvalues>
+      </node>
+      <node id="crowded" label="crowded">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="medical" label="medical">
+        <attvalues>
+          <attvalue for="0" value="50" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="360" />
+        </attvalues>
+      </node>
+      <node id="holes" label="holes" />
+      <node id="disease" label="disease">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="crowed" label="crowed" />
+      <node id="nower" label="nower">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="look" label="look" />
+      <node id="materials" label="materials" />
+      <node id="week" label="week" />
+      <node id="clean" label="clean">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="time" label="time">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="organization" label="organization">
+        <attvalues>
+          <attvalue for="0" value="45" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="324" />
+        </attvalues>
+      </node>
+      <node id="having" label="having">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="came" label="came" />
+    </nodes>
+    <edges>
+      <edge id="0" source="walking" target="road" weight="9" />
+      <edge id="1" source="walking" target="morning" weight="9" />
+      <edge id="2" source="help" target="amref" weight="9" />
+      <edge id="3" source="help" target="people" weight="64" />
+      <edge id="4" source="just" target="took" weight="9" />
+      <edge id="5" source="money" target="take" weight="16" />
+      <edge id="6" source="lack" target="toilets" weight="9" />
+      <edge id="7" source="lack" target="due" weight="64" />
+      <edge id="8" source="find" target="people" weight="9" />
+      <edge id="9" source="years" target="ago" weight="36" />
+      <edge id="10" source="years" target="two" weight="25" />
+      <edge id="11" source="leads" target="overloadment" weight="9" />
+      <edge id="12" source="leads" target="poorly" weight="9" />
+      <edge id="13" source="laini" target="saba" weight="256" />
+      <edge id="14" source="laini" target="nairobi" weight="16" />
+      <edge id="15" source="laini" target="kibera" weight="121" />
+      <edge id="16" source="clinic" target="medical" weight="9" />
+      <edge id="17" source="thanks" target="amref" weight="36" />
+      <edge id="18" source="thanks" target="kibera" weight="9" />
+      <edge id="19" source="human" target="life" weight="9" />
+      <edge id="20" source="world" target="people" weight="9" />
+      <edge id="21" source="touch" target="toilet" weight="9" />
+      <edge id="22" source="touch" target="use" weight="9" />
+      <edge id="23" source="sponsorship" target="amref" weight="9" />
+      <edge id="24" source="nets" target="mosquito" weight="9" />
+      <edge id="25" source="children" target="helped" weight="16" />
+      <edge id="26" source="poorly" target="toilets" weight="9" />
+      <edge id="27" source="lessons" target="behaviour" weight="9" />
+      <edge id="28" source="toilets" target="building" weight="81" />
+      <edge id="29" source="toilets" target="use" weight="16" />
+      <edge id="30" source="toilets" target="built" weight="64" />
+      <edge id="31" source="toilets" target="people" weight="9" />
+      <edge id="32" source="toilets" target="overloadment" weight="16" />
+      <edge id="33" source="toilets" target="flying" weight="16" />
+      <edge id="34" source="toilets" target="uses" weight="9" />
+      <edge id="35" source="toilets" target="build" weight="25" />
+      <edge id="36" source="toilets" target="kenya" weight="9" />
+      <edge id="37" source="toilets" target="kibera" weight="49" />
+      <edge id="38" source="toilets" target="improve" weight="16" />
+      <edge id="39" source="toiletsamref" target="helped" weight="9" />
+      <edge id="40" source="toiletsamref" target="overloadment" weight="16" />
+      <edge id="41" source="thank" target="amref" weight="25" />
+      <edge id="42" source="organisation" target="helped" weight="64" />
+      <edge id="43" source="organisation" target="amref" weight="49" />
+      <edge id="44" source="ngo" target="amref" weight="9" />
+      <edge id="45" source="charge" target="free" weight="36" />
+      <edge id="46" source="spread" target="hivaids" weight="9" />
+      <edge id="47" source="spread" target="cause" weight="9" />
+      <edge id="48" source="spread" target="disease" weight="16" />
+      <edge id="49" source="treatment" target="kenya" weight="9" />
+      <edge id="50" source="circumcision" target="male" weight="9" />
+      <edge id="51" source="take" target="people" weight="9" />
+      <edge id="52" source="good" target="health" weight="9" />
+      <edge id="53" source="good" target="work" weight="9" />
+      <edge id="54" source="good" target="amref" weight="8" />
+      <edge id="55" source="good" target="people" weight="16" />
+      <edge id="56" source="diseases" target="different" weight="9" />
+      <edge id="57" source="diseases" target="cholera" weight="9" />
+      <edge id="58" source="diseases" target="waterborne" weight="9" />
+      <edge id="59" source="diseases" target="dangerous" weight="9" />
+      <edge id="60" source="diseases" target="bone" weight="9" />
+      <edge id="61" source="diseases" target="borne" weight="36" />
+      <edge id="62" source="get" target="people" weight="9" />
+      <edge id="63" source="food" target="providing" weight="9" />
+      <edge id="64" source="cholera" target="people" weight="9" />
+      <edge id="65" source="lain" target="saba" weight="9" />
+      <edge id="66" source="suffering" target="disease" weight="9" />
+      <edge id="67" source="suffering" target="people" weight="64" />
+      <edge id="68" source="tanks" target="water" weight="100" />
+      <edge id="69" source="hands" target="washing" weight="9" />
+      <edge id="70" source="schools" target="provided" weight="16" />
+      <edge id="71" source="sanitary" target="towels" weight="36" />
+      <edge id="72" source="sanitary" target="free" weight="9" />
+      <edge id="73" source="drinking" target="water" weight="16" />
+      <edge id="74" source="drinking" target="dirty" weight="16" />
+      <edge id="75" source="drinking" target="kibera" weight="16" />
+      <edge id="76" source="walk" target="long" weight="9" />
+      <edge id="77" source="day" target="kenya" weight="9" />
+      <edge id="78" source="day" target="night" weight="9" />
+      <edge id="79" source="day" target="amref" weight="25" />
+      <edge id="80" source="day" target="said" weight="9" />
+      <edge id="81" source="day" target="smoking" weight="36" />
+      <edge id="82" source="secondary" target="school" weight="9" />
+      <edge id="83" source="discovered" target="people" weight="9" />
+      <edge id="84" source="school" target="fees" weight="16" />
+      <edge id="85" source="school" target="primary" weight="36" />
+      <edge id="86" source="name" target="amref" weight="9" />
+      <edge id="87" source="mothers" target="lactating" weight="16" />
+      <edge id="88" source="mothers" target="two" weight="9" />
+      <edge id="89" source="morning" target="monday" weight="9" />
+      <edge id="90" source="large" target="giving" weight="9" />
+      <edge id="91" source="large" target="boxes" weight="9" />
+      <edge id="92" source="undugu" target="amref" weight="6" />
+      <edge id="93" source="shortage" target="water" weight="9" />
+      <edge id="94" source="small" target="scale" weight="9" />
+      <edge id="95" source="kichinjio" target="amref" weight="25" />
+      <edge id="96" source="kichinjio" target="kibera" weight="16" />
+      <edge id="97" source="nairobi" target="kayole" weight="9" />
+      <edge id="98" source="nairobi" target="kiberasilanga" weight="9" />
+      <edge id="99" source="nairobi" target="kenya" weight="11664" />
+      <edge id="100" source="nairobi" target="mashimoni" weight="64" />
+      <edge id="101" source="nairobi" target="kibera" weight="3025" />
+      <edge id="102" source="kibera" target="toilet" weight="36" />
+      <edge id="103" source="kibera" target="people" weight="100" />
+      <edge id="104" source="kibera" target="soweto" weight="9" />
+      <edge id="105" source="kibera" target="helped" weight="9" />
+      <edge id="106" source="kibera" target="known" weight="16" />
+      <edge id="107" source="kibera" target="kenya" weight="9" />
+      <edge id="108" source="kibera" target="silanga" weight="9" />
+      <edge id="109" source="kibera" target="hospital" weight="16" />
+      <edge id="110" source="kibera" target="habit" weight="9" />
+      <edge id="111" source="kibera" target="lindi" weight="9" />
+      <edge id="112" source="kibera" target="mashimoni" weight="36" />
+      <edge id="113" source="kibera" target="living" weight="9" />
+      <edge id="114" source="kibera" target="slums" weight="36" />
+      <edge id="115" source="kibera" target="water" weight="25" />
+      <edge id="116" source="kibera" target="community" weight="9" />
+      <edge id="117" source="kibera" target="slum" weight="16" />
+      <edge id="118" source="kibera" target="amref" weight="900" />
+      <edge id="119" source="kibera" target="having" weight="9" />
+      <edge id="120" source="kibera" target="nower" weight="9" />
+      <edge id="121" source="clothes" target="village" weight="9" />
+      <edge id="122" source="province" target="western" weight="9" />
+      <edge id="123" source="disaster" target="gone" weight="9" />
+      <edge id="124" source="disaster" target="national" weight="25" />
+      <edge id="125" source="people" target="toilet" weight="36" />
+      <edge id="126" source="people" target="benefited" weight="9" />
+      <edge id="127" source="people" target="community" weight="16" />
+      <edge id="128" source="people" target="helped" weight="169" />
+      <edge id="129" source="people" target="taught" weight="25" />
+      <edge id="130" source="people" target="kenya" weight="16" />
+      <edge id="131" source="people" target="saw" weight="9" />
+      <edge id="132" source="people" target="use" weight="81" />
+      <edge id="133" source="people" target="dying" weight="9" />
+      <edge id="134" source="people" target="giving" weight="9" />
+      <edge id="135" source="people" target="living" weight="64" />
+      <edge id="136" source="people" target="told" weight="9" />
+      <edge id="137" source="people" target="poor" weight="9" />
+      <edge id="138" source="people" target="million" weight="9" />
+      <edge id="139" source="people" target="helping" weight="25" />
+      <edge id="140" source="people" target="important" weight="16" />
+      <edge id="141" source="people" target="slum" weight="9" />
+      <edge id="142" source="people" target="known" weight="9" />
+      <edge id="143" source="people" target="water" weight="36" />
+      <edge id="144" source="people" target="amref" weight="81" />
+      <edge id="145" source="people" target="wore" weight="9" />
+      <edge id="146" source="people" target="getting" weight="16" />
+      <edge id="147" source="people" target="crowded" weight="9" />
+      <edge id="148" source="people" target="clean" weight="9" />
+      <edge id="149" source="people" target="having" weight="25" />
+      <edge id="150" source="national" target="known" weight="9" />
+      <edge id="151" source="reduce" target="rate" weight="25" />
+      <edge id="152" source="group" target="amref" weight="9" />
+      <edge id="153" source="born" target="water" weight="9" />
+      <edge id="154" source="election" target="post" weight="9" />
+      <edge id="155" source="silanga" target="amref" weight="25" />
+      <edge id="156" source="borne" target="water" weight="49" />
+      <edge id="157" source="closer" target="moved" weight="9" />
+      <edge id="158" source="closer" target="look" weight="9" />
+      <edge id="159" source="living" target="standard" weight="49" />
+      <edge id="160" source="living" target="amref" weight="9" />
+      <edge id="161" source="scale" target="business" weight="9" />
+      <edge id="162" source="visiting" target="toilet" weight="9" />
+      <edge id="163" source="kakamega" target="kenya" weight="121" />
+      <edge id="164" source="kakamega" target="municipality" weight="16" />
+      <edge id="165" source="supplied" target="water" weight="16" />
+      <edge id="166" source="research" target="medical" weight="25" />
+      <edge id="167" source="written" target="jackets" weight="9" />
+      <edge id="168" source="health" target="basic" weight="9" />
+      <edge id="169" source="health" target="education" weight="9" />
+      <edge id="170" source="health" target="care" weight="49" />
+      <edge id="171" source="kiberasilanga" target="amref" weight="9" />
+      <edge id="172" source="international" target="amref" weight="16" />
+      <edge id="173" source="mashimoni" target="amref" weight="169" />
+      <edge id="174" source="contaminated" target="water" weight="16" />
+      <edge id="175" source="red" target="wore" weight="9" />
+      <edge id="176" source="red" target="jackets" weight="9" />
+      <edge id="177" source="told" target="amref" weight="9" />
+      <edge id="178" source="knew" target="didnt" weight="9" />
+      <edge id="179" source="soweto" target="amref" weight="9" />
+      <edge id="180" source="remembered" target="forever" weight="25" />
+      <edge id="181" source="free" target="medical" weight="36" />
+      <edge id="182" source="free" target="offered" weight="9" />
+      <edge id="183" source="standard" target="improve" weight="16" />
+      <edge id="184" source="water" target="use" weight="9" />
+      <edge id="185" source="water" target="amref" weight="11" />
+      <edge id="186" source="water" target="clean" weight="225" />
+      <edge id="187" source="water" target="problems" weight="16" />
+      <edge id="188" source="water" target="project" weight="36" />
+      <edge id="189" source="water" target="kenya" weight="9" />
+      <edge id="190" source="boxes" target="hospital" weight="9" />
+      <edge id="191" source="members" target="amref" weight="25" />
+      <edge id="192" source="based" target="community" weight="9" />
+      <edge id="193" source="come" target="amref" weight="49" />
+      <edge id="194" source="change" target="behaviour" weight="100" />
+      <edge id="195" source="care" target="medical" weight="16" />
+      <edge id="196" source="care" target="support" weight="9" />
+      <edge id="197" source="search" target="distance" weight="9" />
+      <edge id="198" source="kayole" target="amref" weight="9" />
+      <edge id="199" source="months" target="ago" weight="16" />
+      <edge id="200" source="months" target="two" weight="9" />
+      <edge id="201" source="days" target="nower" weight="16" />
+      <edge id="202" source="days" target="use" weight="9" />
+      <edge id="203" source="thing" target="thing" weight="9" />
+      <edge id="204" source="smoke" target="said" weight="9" />
+      <edge id="205" source="poverty" target="due" weight="9" />
+      <edge id="206" source="hospital" target="amref" weight="6" />
+      <edge id="207" source="hospital" target="built" weight="16" />
+      <edge id="208" source="hospital" target="materials" weight="25" />
+      <edge id="209" source="hospital" target="kenya" weight="9" />
+      <edge id="210" source="hospital" target="providing" weight="16" />
+      <edge id="211" source="road" target="saw" weight="9" />
+      <edge id="212" source="named" target="organization" weight="9" />
+      <edge id="213" source="municipality" target="amref" weight="25" />
+      <edge id="214" source="community" target="amref" weight="16" />
+      <edge id="215" source="done" target="amref" weight="9" />
+      <edge id="216" source="use" target="flying" weight="25" />
+      <edge id="217" source="use" target="kenya" weight="16" />
+      <edge id="218" source="service" target="doctor" weight="16" />
+      <edge id="219" source="support" target="amref" weight="6" />
+      <edge id="220" source="flying" target="toilet" weight="25" />
+      <edge id="221" source="flying" target="amref" weight="6" />
+      <edge id="222" source="flying" target="doctor" weight="16" />
+      <edge id="223" source="flying" target="known" weight="9" />
+      <edge id="224" source="long" target="distance" weight="49" />
+      <edge id="225" source="long" target="time" weight="64" />
+      <edge id="226" source="infected" target="education" weight="9" />
+      <edge id="227" source="supplying" target="amref" weight="6" />
+      <edge id="228" source="improve" target="helped" weight="49" />
+      <edge id="229" source="happy" target="crowed" weight="9" />
+      <edge id="230" source="building" target="toilet" weight="9" />
+      <edge id="231" source="started" target="project" weight="9" />
+      <edge id="232" source="took" target="stated" weight="9" />
+      <edge id="233" source="known" target="toilet" weight="9" />
+      <edge id="234" source="known" target="amref" weight="100" />
+      <edge id="235" source="known" target="disease" weight="9" />
+      <edge id="236" source="known" target="organization" weight="36" />
+      <edge id="237" source="smoking" target="stated" weight="9" />
+      <edge id="238" source="hole" target="bore" weight="9" />
+      <edge id="239" source="sex" target="premarital" weight="9" />
+      <edge id="240" source="eat" target="work" weight="9" />
+      <edge id="241" source="work" target="man" weight="9" />
+      <edge id="242" source="heshe" target="see" weight="9" />
+      <edge id="243" source="saba" target="amref" weight="225" />
+      <edge id="244" source="project" target="amref" weight="16" />
+      <edge id="245" source="project" target="really" weight="9" />
+      <edge id="246" source="near" target="crowded" weight="9" />
+      <edge id="247" source="decided" target="amref" weight="25" />
+      <edge id="248" source="providing" target="amref" weight="5" />
+      <edge id="249" source="called" target="organization" weight="16" />
+      <edge id="250" source="called" target="amref" weight="100" />
+      <edge id="251" source="makina" target="amref" weight="9" />
+      <edge id="252" source="toilet" target="built" weight="25" />
+      <edge id="253" source="toilet" target="build" weight="9" />
+      <edge id="254" source="toilet" target="having" weight="9" />
+      <edge id="255" source="lasted" target="week" weight="9" />
+      <edge id="256" source="helped" target="amref" weight="225" />
+      <edge id="257" source="helped" target="organization" weight="64" />
+      <edge id="258" source="helped" target="really" weight="25" />
+      <edge id="259" source="kenya" target="amref" weight="9" />
+      <edge id="260" source="kenya" target="organization" weight="16" />
+      <edge id="261" source="bore" target="holes" weight="16" />
+      <edge id="262" source="built" target="amref" weight="49" />
+      <edge id="263" source="member" target="amref" weight="64" />
+      <edge id="264" source="build" target="amref" weight="9" />
+      <edge id="265" source="provided" target="organization" weight="9" />
+      <edge id="266" source="african" target="medical" weight="25" />
+      <edge id="267" source="helping" target="amref" weight="14" />
+      <edge id="268" source="arrived" target="amref" weight="16" />
+      <edge id="269" source="services" target="medical" weight="64" />
+      <edge id="270" source="researche" target="medical" weight="9" />
+      <edge id="271" source="ago" target="time" weight="16" />
+      <edge id="272" source="africa" target="medical" weight="9" />
+      <edge id="273" source="amref" target="amref" weight="72" />
+      <edge id="274" source="amref" target="medical" weight="4" />
+      <edge id="275" source="amref" target="organization" weight="361" />
+      <edge id="276" source="amref" target="came" weight="256" />
+      <edge id="277" source="time" target="time" weight="25" />
+    </edges>
+  </graph>
+</gexf>

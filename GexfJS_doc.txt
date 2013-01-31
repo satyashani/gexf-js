@@ -1,0 +1,86 @@
+Initializing GexfJS - 
+	GexfJs.init(conf);
+Config vars, can be set later using GexfJS.setConf(conf) method-
+	graphFile : "./data/miserables.gexf",
+            /*
+                The GEXF file to show ! -- can be overriden by adding
+                a hash to the document location, e.g. index.html#celegans.gexf
+            */
+        showEdges : true,
+            /*
+                Default state of the "show edges" button
+            */
+        useLens : false,
+            /*
+                Default state of the "use lens" button
+            */
+        zoomLevel : 0,
+            /*
+                Default zoom level. At zoom = 0, the graph should fill a 800x700px zone
+             */
+        curvedEdges : false,
+            /*
+                False for curved edges, true for straight edges
+                this setting can't be changed from the User Interface
+            */
+        edgeWidthFactor : 0.1,
+            /*
+                Change this parameter for wider or narrower edges
+                this setting can't be changed from the User Interface
+            */
+        minEdgeWidth : 10,
+        maxEdgeWidth : 50,
+        minNodeSize  : 5,
+        maxNodeSize  : 20,
+        nodeSizeFactor : 1,
+        mainDivTop : $("#titlebar").height() + "px",
+            /*
+                Change this parameter for smaller or larger nodes
+               this setting can't be changed from the User Interface
+            */
+        replaceUrls : true,
+            /*
+                Enable the replacement of Urls by Hyperlinks
+                this setting can't be changed from the User Interface
+            */
+        showEdgeWeight : true,
+            /*
+                Show the weight of edges in the list
+                this setting can't be changed from the User Interface
+            */
+        language: false
+            /*
+                Set to an ISO language code to switch the interface to that language.
+                Available languages are English [en], French [fr], Spanish [es],
+                Italian [it], Finnish [fi], Turkish [tr] and Greek [el].
+                If set to false, the language will be that of the user's browser.
+            */
+
+        mainViewDiv : "#zonecentre",// jquery identifier of div that will contain main canvas
+        mainDivTop : '0px', // top margin if required to be given to main div
+        overviewDiv : "#overviewzone", // jquery identifier of div that will contain overview map
+Method summary - GexfJS.<method>
+	init(conf) - picks up divs, adds canvas elements to them, adds events, cleans map and
+		if graphFile is set in conf, loads and draws it.
+	zoomin,zoomout,toggleLens,toggleEdge - events for control tools
+	addCanvas,addevents - add these to DOM
+	initMap()  - clean up canvas and reset slider and canvas sizes
+	loadAndDrawGraph(url) - loads a graphs, if url is supplied it is used, else GexfJS.p.graphFile
+		is used which can be set like GexfJS.setConf({'graphFile':<fileurl>}). It parses and
+		draws the graph on success because graph drawing should start only when file loading completes.
+	parseGraph(data) - parses gexf file data and loads GexfJS.graph  with elements found. Draws graph.
+	draw()	- draws the graph that is stored in GexfJS.graph.
+	traceArc,traceMini,traceMap - actually draw the graph
+	mapGraph(url) - loads and draws the map from passed url.
+	mapFromLink() - used to extract url of links on clicking them and call mapGraph,
+		used like $('.gexflink').click(GexfJS.mapFromLink)
+Note -
+	1. id of zoom/lens/edge control elements are hardcoded
+	2. in graphs having no position data for nodes, random positions are provided at present
+	3. currently graph is drawn on certain events which change state. In original script graph was drawn
+	   at 60 millisecond interval which had made the script slow for large graphs.
+	4. For better performance, a queue must be implemented that draws the graph in steps.
+
+**********FRLayout.js************
+FRLayout - Implements a layou algo. To layout the nodes - do FR.start(). It acts on GexfJS object,
+            so depends on Gexf.js and graph object loaded. No checking is done at present.
