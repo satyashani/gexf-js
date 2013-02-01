@@ -71,7 +71,7 @@ FR = {
                 nodes[i].coords.base.y = Math.min(FR.height,Math.max(0,y+nodes[i].disp.y))
             }
             t = 0.9*t;
-            GexfJS.areParamsIdentical = false;
+//            GexfJS.areParamsIdentical = false;
         }
         
         FR.stop();

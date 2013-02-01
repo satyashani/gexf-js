@@ -5,8 +5,8 @@
 ### Newest features ##
 
 PLugins can be developed for GexfJS lyaout. Currently FRUCHTERMAN AND REINGOLD and Yi Fan Hu
-implemented and tested.
-i18n has speaks 7 languages: English, French, Italian, Spanish, Finnish, Turkish and Greek !
+implemented and under testing.
+i18n has 7 languages: English, French, Italian, Spanish, Finnish, Turkish and Greek !
 
 ### Contributors ##
 

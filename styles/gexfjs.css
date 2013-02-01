@@ -94,6 +94,12 @@ a.heading {
     padding: 0; margin: 10px 0; width: 36px; text-align: center;
 }
 
+#messagebar{
+    display: none;
+    position: absolute;
+    bottom: 0px;
+}
+
 #zoomSliderzone {
     height: 120px;
 }

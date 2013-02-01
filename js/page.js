@@ -259,6 +259,14 @@ function updateAutoComplete(_sender) {
 }
 
 $(document).ready(function() {
+    var msg = {
+        show: function(data){
+            $('#messagebar').show().html(data);
+        },
+        hide: function(){
+            $('#messagebar').fadeOut().html("");
+        }
+    }
     GexfJS.init({
         graphFile : "./data/Acces-2011-09-24-23.gexf",
             /*
@@ -315,7 +323,9 @@ $(document).ready(function() {
                 If set to false, the language will be that of the user's browser.
             */
         useLayout : true,
-        layoutClass : YH
+        layoutClass : YH,
+        messageShow : msg.show,
+        messageHide : msg.hide
     });
 
     var lang = (

@@ -47,7 +47,12 @@ GexfJS = {
         useLayout: true,
         layoutClass: {}
     },
-    
+    messageShow: function(data){
+        console.log(data);
+    },
+    messageHide: function(){
+        
+    },
     zoomin : function(){
         GexfJS.p.zoomLevel = Math.min( GexfJS.maxZoom, GexfJS.p.zoomLevel + 1);
         GexfJS.slider.slider("value", GexfJS.p.zoomLevel);
@@ -90,6 +95,8 @@ GexfJS = {
         GexfJS.setConf(conf);
         GexfJS.maindiv = $(GexfJS.p.mainViewDiv);
         GexfJS.ovdiv = $(GexfJS.p.overviewDiv);
+        if(typeof GexfJS.p.messageShow=='function') GexfJS.messageShow = GexfJS.p.messageShow
+        if(typeof GexfJS.p.messageHide=='function') GexfJS.messageHide = GexfJS.p.messageHide
 //        GexfJS.p.centreX = (GexfJS.maindiv.width()-GexfJS.ovdiv.width())/2;
 //        GexfJS.p.centreY = GexfJS.maindiv.height()/2;
         GexfJS.addCanvas();
@@ -129,6 +136,12 @@ GexfJS = {
             });
         GexfJS.ovview.mousemove(GexfJS.onOverviewMove).mousedown(GexfJS.startMove).mouseup(GexfJS.endMove)
             .mouseout(GexfJS.endMove).mousewheel(GexfJS.onGraphScroll);
+        GexfJS.ovdiv.mouseover(function()
+            {
+                $(this).animate({'opacity':1});
+            }).mouseleave(function(){
+                $(this).animate({'opacity':0.3});
+            }).animate({'opacity':0.3});
     },
     
     initMap : function(){
@@ -159,6 +172,7 @@ GexfJS = {
     
     loadAndDrawGraph : function(url){
         var u = (typeof url !== 'undefined') ? url : (document.location.hash.length > 1 ? document.location.hash.substr(1) : GexfJS.p.graphFile );
+        GexfJS.messageShow("Loading Gexf File..");
         $.ajax({
             url: u,
             dataType: "xml",
@@ -170,6 +184,7 @@ GexfJS = {
     },
     
     parseGraph: function(data){
+        GexfJS.messageShow("Parsing graph..");
         GexfJS.updateWorkspaceBounds();
         var _s = new Date();
         var _g = $(data).find("graph"),
@@ -337,9 +352,13 @@ GexfJS = {
         for(var j in GexfJS.graph.edgeList){
             GexfJS.graph.edgeList[j].width = (range_a*GexfJS.graph.edgeList[j].width + range_b);
         }
-        if(GexfJS.p.useLayout)
+        if(GexfJS.p.useLayout){
+            GexfJS.messageShow("Creating Layout..");
+            GexfJS.messageHide();
             GexfJS.p.layoutClass.start();
-        GexfJS.draw();
+        }
+        else
+            GexfJS.draw();
 
     },
     
