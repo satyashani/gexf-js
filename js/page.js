@@ -346,6 +346,7 @@ $(document).ready(function() {
     $("#leftcolumn").css({'top':$("#titlebar").height() + "px"});
     
     $('.gexflink').click(GexfJS.mapFromLink);
+//    loader.loadJsonList();
     $("#searchinput")
         .focus(function() {
             if ( $(this).is('.grey') ) {
