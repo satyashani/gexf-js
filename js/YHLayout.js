@@ -26,42 +26,49 @@ YH = {
     k:1,
     CR: 1,
     CA: 1,
+    E:100000,
+    N:0,
+    conv : false,
+    timer: 0,
+    itr:0,
     
     stop:function(){
         YH.run = false;
     },
     
-    start : function(){
-        this.run = true;
-//        this.startTime = new Date().getTime();
-        this.width = GexfJS.graphZone.width;
-        this.height = GexfJS.graphZone.height;
-        var area = this.width*this.height;
+    start: function(){
+        YH.itr=0;
+        YH.width = GexfJS.graphZone.width;
+        YH.height = GexfJS.graphZone.height;
+        var area = YH.width*YH.height;
         YH.Edges = GexfJS.graph.edgeList;
-        var tol=0.1,N=GexfJS.graph.nodeList.length;
-        this.CR= 0.4;     //Importance of repulsive force constant, higher = more replusion
-        this.CA= 1*Math.pow(N, 0.25);     //Importance of attractive force constant, higher = more attraction
-        this.k = Math.sqrt(area/N);
-        var itr=1,i=0,j=0,c=1;
-        
-        var conv = false,E = 100000,E0=0,f={x:0,y:0};
-        var P0 = [];
-        
-        
-        for(i in GexfJS.graph.nodeList){
-            YH.P[i] = {x:   GexfJS.graph.nodeList[i].coords.base.x,
-                       y:   GexfJS.graph.nodeList[i].coords.base.y}
-        }
-        
-//        console.log("YH.P initialised in ms: "+(new Date().getTime()-YH.startTime));
+        YH.P = GexfJS.graph.nodeList;
+        YH.tol=0.1;
+        YH.conv = false;
+        YH.N=GexfJS.graph.nodeList.length;
+        YH.CR= 0.4;     //Importance of repulsive force constant, higher = more replusion
+        YH.CA= Math.pow(YH.N, 0.25);     //Importance of attractive force constant, higher = more attraction
+        YH.k = Math.sqrt(area/YH.N);
+        YH.E = 100000,
+        console.log("nodes : "+YH.N+" edges: "+YH.Edges.length);
+        YH.calcPos();
+    },
+    
+    calcPos : function(){
+        YH.run = true;
         YH.startTime = new Date().getTime();
+        var runtime = new Date().getTime() - YH.startTime;
+        var i=0,j=0,c=1;
+        var E0=0,f={x:0,y:0};
+        var P0 = [];
+        var rmsdif = 0;
         
-        while(!conv&&itr<50&&YH.run){
-            itr++;
+        while((!YH.conv)&&runtime<5000&&YH.run){
+            YH.itr++;
             for(i in YH.P){
-                P0[i] = {x:YH.P[i].x,y:YH.P[i].y};
+                P0[i] = {x:YH.P[i].coords.base.x,y:YH.P[i].coords.base.y};
             }
-            E0 = E; E=0;
+            E0 = YH.E; YH.E=0;
             for(i in YH.P){
                 f.x=0;f.y=0;
                 for(var e in YH.Edges){
@@ -79,30 +86,25 @@ YH = {
                 
                 c = YH.mod(f);
                 f = {x:f.x*YH.step/c,y:f.y*YH.step/c};
-                YH.P[i].x = Math.min(YH.width,Math.max(0,YH.P[i].x+f.x));
-                YH.P[i].y = Math.min(YH.height,Math.max(0,YH.P[i].y+f.y))
-//                YH.P[i] = YH.plus(YH.P[i], f);
-//                console.log("f = "+JSON.stringify(f)+"P["+i+"] = "+JSON.stringify(YH.P[i])+"P0["+i+"] = "+JSON.stringify(P0[i]));
-//                console.log('pdif from P0: '+JSON.stringify(YH.minus(YH.P[i], P0[i])));
-                
-                E = E + c*c;
+                YH.P[i].coords.base.x = Math.min(YH.width,Math.max(0,YH.P[i].coords.base.x+f.x));
+                YH.P[i].coords.base.y = Math.min(YH.height,Math.max(0,YH.P[i].coords.base.y+f.y))    
+                YH.E = YH.E + c*c;
             }
-            YH.updateStep(E, E0);
+            YH.updateStep(YH.E, E0);
             
-//            console.log("iteration: "+itr+" time ms: "+(new Date().getTime()-YH.startTime)+" , energy change "+(E-E0));
-//            YH.startTime = new Date().getTime();
-            
-            if(YH.rmsDiff(P0)<this.k*tol) conv=true;
+            rmsdif = YH.rmsDiff(P0);
+            if(rmsdif<YH.k*YH.tol) YH.conv=true;
+            runtime = new Date().getTime() - YH.startTime;
         }
-//        console.log("iterations: "+itr+" in time ms: "+(new Date().getTime()-YH.startTime)+" , energy change "+(E-E0));
-//        YH.startTime = new Date().getTime();
-        for(i in YH.P){
-            GexfJS.graph.nodeList[i].coords.base.x = YH.P[i].x;
-            GexfJS.graph.nodeList[i].coords.base.y = YH.P[i].y;
+        var ve = (YH.N+YH.Edges.length)/5;
+        if((!YH.conv)&&YH.run&&(YH.itr<ve)){
+            YH.timer = window.setTimeout(YH.calcPos, ve/5);
+            GexfJS.draw(true);
+        }else{
+            window.clearTimeout(YH.timer);
+            YH.stop();
+            GexfJS.draw(true);
         }
-        YH.stop();
-        GexfJS.draw();
-//        window.setTimeout(GexfJS.draw,1000);
     },
     
     calcDistances : function(){
@@ -128,27 +130,27 @@ YH = {
     },
     
     fr  : function(i,j,cl){
-        var v = YH.minus(YH.P[i], YH.P[j])
+        var v = YH.minus(YH.P[i].coords.base, YH.P[j].coords.base)
         var d = FR.mod(v),c=0;
         if(d ==0){
             d = 0.01;
-            c = (this.CR*this.CR*this.k*this.k)*cl/(d*d);
+            c = (YH.CR*YH.CR*YH.k*YH.k)*cl/(d*d);
         }else{
-            c = (this.CR*this.CR*this.k*this.k)*cl/(d*d);
+            c = (YH.CR*YH.CR*YH.k*YH.k)*cl/(d*d);
         }
         return {x:v.x*c,y:v.y*c};
     },
     
     fa  : function(i,j,cl){
-        var v = YH.minus(YH.P[j], YH.P[i])
-        var c = this.CA*FR.mod(v)/(this.k*cl);
+        var v = YH.minus(YH.P[j].coords.base, YH.P[i].coords.base)
+        var c = YH.CA*FR.mod(v)/(YH.k*cl);
         return {x:v.x*c,y:v.y*c};
     },
     
     rmsDiff  : function(P0){
         var X=0;
         for(var i in YH.P){
-                    X+= Math.pow(YH.mod(YH.minus(YH.P[i], P0[i])), 2);
+                    X+= Math.pow(YH.mod(YH.minus(YH.P[i].coords.base, P0[i])), 2);
         }
         X = Math.sqrt(X);
         

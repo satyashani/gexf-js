@@ -34,6 +34,10 @@ body {
     float: left; width: 250px; text-align: center;
 }
 
+#gexflinks{
+    max-height: 250px;
+    overflow: auto;
+}
 
 h1 {
     margin:0;

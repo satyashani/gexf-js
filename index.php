@@ -1,3 +1,17 @@
+<?php
+
+/* * ************************************************************ 
+ * 
+ * Date: Feb 2, 2013
+ * version: 1.0
+ * programmer: Shani Mahadeva <satyashani@gmail.com>
+ * Description:   
+ * PHP file index
+ * 
+ * 
+ * *************************************************************** */
+include("gexfLinks.php");
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -40,30 +54,7 @@
                     <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu" id="gexflinks">
-                        <li>
-                            <a href="./data/miserables.gexf" class="gexflink btn" title="miserables.gexf">Miserables</a>
-                        </li>
-                        <li>
-                            <a href="./data/celegans.gexf" class="gexflink btn" title="celegans.gexf">Celegans</a>
-                        </li>
-                        <li>
-                            <a href="./data/Acces-2011-09-24-23.gexf" class="gexflink btn" title="1.gexf">Access</a>
-                        </li>
-                        <li>
-                            <a href="./data/ADRA-2011-09-24-19.gexf" class="gexflink btn" title="2.gexf">ADRA</a>
-                        </li>
-                        <li>
-                            <a href="./data/AFRICA-2011-09-24-39.gexf" class="gexflink btn" title="3.gexf">AFRICA</a>
-                        </li>
-                        <li>
-                            <a href="./data/Agency-2011-09-24-29.gexf" class="gexflink btn" title="3.gexf">Agency</a>
-                        </li>
-                        <li>
-                            <a href="./data/ALL-2011-09-24-3440.gexf" class="gexflink btn" title="3.gexf">All</a>
-                        </li>
-                        <li>
-                            <a href="./data/AMREF-2011-09-24-197.gexf" class="gexflink btn" title="3.gexf">AMREF</a>
-                        </li>
+                        <?php echo getGexfLinks(); ?>
                     </ul>
                 </div>
             </div>

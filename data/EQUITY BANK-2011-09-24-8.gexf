@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="color" type="integer" />
+      <attribute id="1" title="weight" type="integer" />
+      <attribute id="2" title="size" type="integer" />
+    </attributes>
+    <nodes>
+      <node id="school" label="school" />
+      <node id="money" label="money" />
+      <node id="equity" label="equity">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="pocket" label="pocket">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="kibera" label="kibera" />
+      <node id="fees" label="fees">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="kenya" label="kenya" />
+      <node id="nairobi" label="nairobi" />
+      <node id="bank" label="bank" />
+    </nodes>
+    <edges>
+      <edge id="0" source="school" target="fees" weight="25" />
+      <edge id="1" source="money" target="pocket" weight="16" />
+      <edge id="2" source="equity" target="kibera" weight="9" />
+      <edge id="3" source="equity" target="bank" weight="361" />
+      <edge id="4" source="pocket" target="fees" weight="9" />
+      <edge id="5" source="kenya" target="nairobi" weight="9" />
+    </edges>
+  </graph>
+</gexf>

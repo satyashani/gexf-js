@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="color" type="integer" />
+      <attribute id="1" title="weight" type="integer" />
+      <attribute id="2" title="size" type="integer" />
+    </attributes>
+    <nodes>
+      <node id="named" label="named">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="certain" label="certain" />
+      <node id="hard" label="hard" />
+      <node id="am" label="am">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="primary" label="primary" />
+      <node id="high" label="high">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="decided" label="decided" />
+      <node id="fees" label="fees">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="kenya" label="kenya">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="group" label="group" />
+      <node id="pay" label="pay">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="olumbe" label="olumbe" />
+      <node id="access" label="access">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="friend" label="friend" />
+      <node id="form" label="form" />
+      <node id="get" label="get" />
+      <node id="mine" label="mine">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="hivaids" label="hivaids" />
+      <node id="services" label="services" />
+      <node id="major" label="major" />
+      <node id="school" label="school">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="place" label="place">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="organization" label="organization">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="introduced" label="introduced" />
+    </nodes>
+    <edges>
+      <edge id="0" source="named" target="access" weight="16" />
+      <edge id="1" source="named" target="organization" weight="16" />
+      <edge id="2" source="certain" target="organization" weight="16" />
+      <edge id="3" source="hard" target="get" weight="9" />
+      <edge id="4" source="am" target="form" weight="9" />
+      <edge id="5" source="am" target="fees" weight="9" />
+      <edge id="6" source="primary" target="school" weight="25" />
+      <edge id="7" source="high" target="pay" weight="9" />
+      <edge id="8" source="high" target="school" weight="144" />
+      <edge id="9" source="decided" target="pay" weight="9" />
+      <edge id="10" source="fees" target="school" weight="225" />
+      <edge id="11" source="kenya" target="access" weight="9" />
+      <edge id="12" source="kenya" target="group" weight="9" />
+      <edge id="13" source="pay" target="school" weight="25" />
+      <edge id="14" source="olumbe" target="major" weight="9" />
+      <edge id="15" source="friend" target="mine" weight="9" />
+      <edge id="16" source="mine" target="introduced" weight="9" />
+      <edge id="17" source="hivaids" target="services" weight="9" />
+      <edge id="18" source="place" target="place" weight="9" />
+    </edges>
+  </graph>
+</gexf>

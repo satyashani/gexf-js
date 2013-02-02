@@ -23,18 +23,18 @@ FR = {
     },
     
     start : function(){
-        this.run = true;
-        this.width = GexfJS.graphZone.width;
-        this.height = GexfJS.graphZone.height;
-        var area = this.width*this.height;
+        FR.run = true;
+        FR.width = GexfJS.graphZone.width;
+        FR.height = GexfJS.graphZone.height;
+        var area = FR.width*FR.height;
         var nodes = GexfJS.graph.nodeList;
         var edges = GexfJS.graph.edgeList
         var coef = 0.1;     //Importance of force constant, higher = more replusion
         var cl=1; //a constant calculated to separate highly connected nodes further apart
-        this.k = coef*Math.sqrt(area/nodes.length);
+        FR.k = coef*Math.sqrt(area/nodes.length);
         var t = Math.sqrt(area),del,itr=1;
         
-        console.log("starting FR layout");
+        console.log("starting FR layout for N="+nodes.length+", E="+edges.length);
         for(var i in nodes){
             nodes[i].degree = 1;
         }
@@ -82,16 +82,16 @@ FR = {
         var d = FR.mod(v);
         if(d ==0){
             d = 0.01;
-            var c = (this.k*this.k)*cl/(d*d);
+            var c = (FR.k*FR.k)*cl/(d*d);
         }else{
-            var c = (this.k*this.k)*cl/(d*d);
+            var c = (FR.k*FR.k)*cl/(d*d);
         }
         
         return {x:v.x*c,y:v.y*c};
     },
     
     fa  : function(v,cl){
-        var c = FR.mod(v)/(this.k*cl);
+        var c = FR.mod(v)/(FR.k*cl);
         return {x:v.x*c,y:v.y*c};
     },
     

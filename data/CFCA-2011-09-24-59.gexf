@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="color" type="integer" />
+      <attribute id="1" title="weight" type="integer" />
+      <attribute id="2" title="size" type="integer" />
+    </attributes>
+    <nodes>
+      <node id="help" label="help">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="money" label="money">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="supported" label="supported">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="years" label="years" />
+      <node id="four" label="four" />
+      <node id="financially" label="financially">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="thanks" label="thanks">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="children" label="children">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="thank" label="thank" />
+      <node id="organisation" label="organisation">
+        <attvalues>
+          <attvalue for="0" value="80" />
+          <attvalue for="1" value="16" />
+          <attvalue for="2" value="576" />
+        </attvalues>
+      </node>
+      <node id="parents" label="parents" />
+      <node id="mwe" label="mwe">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="hope" label="hope">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="gave" label="gave">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="masaka" label="masaka" />
+      <node id="good" label="good">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="288" />
+        </attvalues>
+      </node>
+      <node id="get" label="get" />
+      <node id="tanks" label="tanks" />
+      <node id="cfcathat" label="cfcathat" />
+      <node id="school" label="school">
+        <attvalues>
+          <attvalue for="0" value="75" />
+          <attvalue for="1" value="15" />
+          <attvalue for="2" value="540" />
+        </attvalues>
+      </node>
+      <node id="orphans" label="orphans" />
+      <node id="brother" label="brother">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="university" label="university">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="upto" label="upto">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="people" label="people" />
+      <node id="doing" label="doing" />
+      <node id="scholastic" label="scholastic">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="christian" label="christian" />
+      <node id="employment" label="employment">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="provided" label="provided" />
+      <node id="organisatuion" label="organisatuion">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="got" label="got">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="foundation" label="foundation">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="feesit" label="feesit" />
+      <node id="jobs" label="jobs" />
+      <node id="use" label="use">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="free" label="free" />
+      <node id="standard" label="standard" />
+      <node id="water" label="water">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="compleleted" label="compleleted">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="gained" label="gained" />
+      <node id="getting" label="getting" />
+      <node id="dues" label="dues">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="pays" label="pays" />
+      <node id="schooling" label="schooling">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="done" label="done">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="fees" label="fees">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="enoough" label="enoough">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="given" label="given">
+        <attvalues>
+          <attvalue for="0" value="35" />
+          <attvalue for="1" value="7" />
+          <attvalue for="2" value="252" />
+        </attvalues>
+      </node>
+      <node id="due" label="due">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="life" label="life">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="complete" label="complete">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="started" label="started">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="registered" label="registered">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="cfca" label="cfca">
+        <attvalues>
+          <attvalue for="0" value="75" />
+          <attvalue for="1" value="15" />
+          <attvalue for="2" value="540" />
+        </attvalues>
+      </node>
+      <node id="child" label="child" />
+      <node id="witn" label="witn">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="hold" label="hold" />
+      <node id="paying" label="paying" />
+      <node id="tank" label="tank" />
+      <node id="work" label="work">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="called" label="called" />
+      <node id="uganda" label="uganda" />
+      <node id="am" label="am">
+        <attvalues>
+          <attvalue for="0" value="30" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="216" />
+        </attvalues>
+      </node>
+      <node id="helped" label="helped">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="288" />
+        </attvalues>
+      </node>
+      <node id="registred" label="registred">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="want" label="want">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="need" label="need" />
+      <node id="education" label="education">
+        <attvalues>
+          <attvalue for="0" value="30" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="216" />
+        </attvalues>
+      </node>
+      <node id="physical" label="physical" />
+      <node id="needs" label="needs" />
+      <node id="requirements" label="requirements">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="pay" label="pay" />
+      <node id="six" label="six">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="take" label="take">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="holding" label="holding">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="becuase" label="becuase">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="concerning" label="concerning" />
+      <node id="higher" label="higher">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="poor" label="poor" />
+      <node id="helping" label="helping">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="chance" label="chance" />
+      <node id="levels" label="levels">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="plan" label="plan">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="ago" label="ago" />
+      <node id="daily" label="daily">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="materials" label="materials" />
+      <node id="things" label="things" />
+      <node id="serious" label="serious">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="senior" label="senior">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="institutions" label="institutions" />
+      <node id="came" label="came" />
+    </nodes>
+    <edges>
+      <edge id="0" source="help" target="money" weight="16" />
+      <edge id="1" source="help" target="orphans" weight="9" />
+      <edge id="2" source="help" target="good" weight="25" />
+      <edge id="3" source="money" target="helped" weight="16" />
+      <edge id="4" source="money" target="hold" weight="9" />
+      <edge id="5" source="supported" target="organisatuion" weight="16" />
+      <edge id="6" source="supported" target="school" weight="49" />
+      <edge id="7" source="years" target="ago" weight="9" />
+      <edge id="8" source="four" target="senior" weight="49" />
+      <edge id="9" source="financially" target="poor" weight="9" />
+      <edge id="10" source="financially" target="parents" weight="9" />
+      <edge id="11" source="thanks" target="education" weight="16" />
+      <edge id="12" source="thanks" target="cfca" weight="36" />
+      <edge id="13" source="children" target="foundation" weight="16" />
+      <edge id="14" source="children" target="school" weight="25" />
+      <edge id="15" source="children" target="registered" weight="16" />
+      <edge id="16" source="thank" target="cfca" weight="9" />
+      <edge id="17" source="organisation" target="upto" weight="25" />
+      <edge id="18" source="organisation" target="provided" weight="9" />
+      <edge id="19" source="organisation" target="given" weight="100" />
+      <edge id="20" source="organisation" target="cfcathat" weight="36" />
+      <edge id="21" source="organisation" target="started" weight="16" />
+      <edge id="22" source="organisation" target="life" weight="25" />
+      <edge id="23" source="organisation" target="cfca" weight="225" />
+      <edge id="24" source="organisation" target="helped" weight="225" />
+      <edge id="25" source="organisation" target="done" weight="16" />
+      <edge id="26" source="organisation" target="hope" weight="9" />
+      <edge id="27" source="organisation" target="want" weight="16" />
+      <edge id="28" source="organisation" target="plan" weight="81" />
+      <edge id="29" source="organisation" target="called" weight="16" />
+      <edge id="30" source="organisation" target="came" weight="16" />
+      <edge id="31" source="organisation" target="gave" weight="16" />
+      <edge id="32" source="mwe" target="given" weight="25" />
+      <edge id="33" source="mwe" target="school" weight="25" />
+      <edge id="34" source="hope" target="complete" weight="16" />
+      <edge id="35" source="gave" target="school" weight="9" />
+      <edge id="36" source="masaka" target="uganda" weight="64" />
+      <edge id="37" source="good" target="things" weight="25" />
+      <edge id="38" source="good" target="work" weight="49" />
+      <edge id="39" source="good" target="due" weight="16" />
+      <edge id="40" source="good" target="cfca" weight="16" />
+      <edge id="41" source="good" target="done" weight="16" />
+      <edge id="42" source="good" target="enoough" weight="16" />
+      <edge id="43" source="get" target="employment" weight="9" />
+      <edge id="44" source="tanks" target="water" weight="81" />
+      <edge id="45" source="school" target="paying" weight="16" />
+      <edge id="46" source="school" target="given" weight="25" />
+      <edge id="47" source="school" target="requirements" weight="81" />
+      <edge id="48" source="school" target="pays" weight="9" />
+      <edge id="49" source="school" target="concerning" weight="16" />
+      <edge id="50" source="school" target="feesit" weight="9" />
+      <edge id="51" source="school" target="dues" weight="100" />
+      <edge id="52" source="school" target="fees" weight="121" />
+      <edge id="53" source="school" target="cfca" weight="9" />
+      <edge id="54" source="school" target="standard" weight="16" />
+      <edge id="55" source="brother" target="got" weight="9" />
+      <edge id="56" source="brother" target="registered" weight="25" />
+      <edge id="57" source="brother" target="enoough" weight="16" />
+      <edge id="58" source="university" target="take" weight="16" />
+      <edge id="59" source="university" target="complete" weight="16" />
+      <edge id="60" source="upto" target="schooling" weight="25" />
+      <edge id="61" source="upto" target="holding" weight="25" />
+      <edge id="62" source="upto" target="higher" weight="49" />
+      <edge id="63" source="people" target="helped" weight="9" />
+      <edge id="64" source="doing" target="work" weight="16" />
+      <edge id="65" source="scholastic" target="given" weight="16" />
+      <edge id="66" source="scholastic" target="materials" weight="256" />
+      <edge id="67" source="christian" target="foundation" weight="25" />
+      <edge id="68" source="employment" target="jobs" weight="9" />
+      <edge id="69" source="employment" target="getting" weight="9" />
+      <edge id="70" source="organisatuion" target="registered" weight="16" />
+      <edge id="71" source="got" target="chance" weight="25" />
+      <edge id="72" source="got" target="registred" weight="16" />
+      <edge id="73" source="use" target="requirements" weight="25" />
+      <edge id="74" source="use" target="daily" weight="64" />
+      <edge id="75" source="free" target="education" weight="9" />
+      <edge id="76" source="water" target="given" weight="25" />
+      <edge id="77" source="water" target="tank" weight="16" />
+      <edge id="78" source="compleleted" target="senior" weight="16" />
+      <edge id="79" source="compleleted" target="dues" weight="16" />
+      <edge id="80" source="gained" target="cfca" weight="36" />
+      <edge id="81" source="schooling" target="started" weight="36" />
+      <edge id="82" source="fees" target="pay" weight="16" />
+      <edge id="83" source="fees" target="given" weight="9" />
+      <edge id="84" source="due" target="cfca" weight="16" />
+      <edge id="85" source="life" target="daily" weight="81" />
+      <edge id="86" source="complete" target="education" weight="25" />
+      <edge id="87" source="started" target="helped" weight="25" />
+      <edge id="88" source="cfca" target="six" weight="16" />
+      <edge id="89" source="cfca" target="cfca" weight="4" />
+      <edge id="90" source="cfca" target="helped" weight="25" />
+      <edge id="91" source="cfca" target="serious" weight="25" />
+      <edge id="92" source="cfca" target="witn" weight="16" />
+      <edge id="93" source="cfca" target="becuase" weight="25" />
+      <edge id="94" source="child" target="helped" weight="9" />
+      <edge id="95" source="witn" target="registred" weight="16" />
+      <edge id="96" source="am" target="serious" weight="25" />
+      <edge id="97" source="am" target="senior" weight="9" />
+      <edge id="98" source="am" target="education" weight="36" />
+      <edge id="99" source="am" target="am" weight="9" />
+      <edge id="100" source="helped" target="becuase" weight="25" />
+      <edge id="101" source="want" target="take" weight="16" />
+      <edge id="102" source="need" target="physical" weight="9" />
+      <edge id="103" source="education" target="levels" weight="81" />
+      <edge id="104" source="physical" target="needs" weight="36" />
+      <edge id="105" source="six" target="senior" weight="36" />
+      <edge id="106" source="holding" target="plan" weight="49" />
+      <edge id="107" source="higher" target="helping" weight="9" />
+      <edge id="108" source="higher" target="levels" weight="169" />
+      <edge id="109" source="higher" target="institutions" weight="9" />
+      <edge id="110" source="poor" target="helping" weight="9" />
+      <edge id="111" source="helping" target="plan" weight="25" />
+    </edges>
+  </graph>
+</gexf>

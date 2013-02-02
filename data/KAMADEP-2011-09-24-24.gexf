@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="color" type="integer" />
+      <attribute id="1" title="weight" type="integer" />
+      <attribute id="2" title="size" type="integer" />
+    </attributes>
+    <nodes>
+      <node id="named" label="named" />
+      <node id="right" label="right">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="school" label="school" />
+      <node id="people" label="people">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="money" label="money" />
+      <node id="mashambani" label="mashambani">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="year" label="year" />
+      <node id="couldnt" label="couldnt">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="settlement" label="settlement" />
+      <node id="little" label="little">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="feeding" label="feeding" />
+      <node id="organisation" label="organisation" />
+      <node id="contributed" label="contributed" />
+      <node id="located" label="located" />
+      <node id="program" label="program" />
+      <node id="parents" label="parents">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="washer" label="washer" />
+      <node id="scheme" label="scheme" />
+      <node id="development" label="development" />
+      <node id="rescue" label="rescue">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="makaburinimost" label="makaburinimost">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="afford" label="afford">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="kamadep" label="kamadep">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="houses" label="houses" />
+      <node id="shoesthey" label="shoesthey">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="meals" label="meals" />
+      <node id="booksuniforms" label="booksuniforms">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="earn" label="earn">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="kazi" label="kazi">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="name" label="name">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="rope" label="rope" />
+      <node id="near" label="near" />
+      <node id="green" label="green" />
+      <node id="organization" label="organization">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="providing" label="providing" />
+      <node id="came" label="came">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="named" target="kamadep" weight="9" />
+      <edge id="1" source="right" target="afford" weight="16" />
+      <edge id="2" source="right" target="booksuniforms" weight="16" />
+      <edge id="3" source="school" target="located" weight="9" />
+      <edge id="4" source="school" target="shoesthey" weight="9" />
+      <edge id="5" source="people" target="earn" weight="9" />
+      <edge id="6" source="people" target="parents" weight="9" />
+      <edge id="7" source="money" target="little" weight="9" />
+      <edge id="8" source="mashambani" target="development" weight="16" />
+      <edge id="9" source="mashambani" target="kazi" weight="9" />
+      <edge id="10" source="year" target="organization" weight="9" />
+      <edge id="11" source="couldnt" target="afford" weight="16" />
+      <edge id="12" source="couldnt" target="parents" weight="16" />
+      <edge id="13" source="settlement" target="scheme" weight="9" />
+      <edge id="14" source="little" target="earn" weight="9" />
+      <edge id="15" source="feeding" target="program" weight="16" />
+      <edge id="16" source="organisation" target="name" weight="9" />
+      <edge id="17" source="contributed" target="shoesthey" weight="9" />
+      <edge id="18" source="parents" target="makaburinimost" weight="16" />
+      <edge id="19" source="washer" target="rope" weight="9" />
+      <edge id="20" source="rescue" target="providing" weight="16" />
+      <edge id="21" source="rescue" target="came" weight="16" />
+      <edge id="22" source="makaburinimost" target="near" weight="9" />
+      <edge id="23" source="kamadep" target="kazi" weight="9" />
+      <edge id="24" source="kamadep" target="name" weight="100" />
+      <edge id="25" source="kamadep" target="came" weight="81" />
+      <edge id="26" source="houses" target="green" weight="9" />
+      <edge id="27" source="meals" target="booksuniforms" weight="9" />
+      <edge id="28" source="name" target="organization" weight="49" />
+    </edges>
+  </graph>
+</gexf>

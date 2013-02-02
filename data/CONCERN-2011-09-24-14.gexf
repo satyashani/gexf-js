@@ -6,22 +6,30 @@
       <attribute id="2" title="size" type="integer" />
     </attributes>
     <nodes>
-      <node id="students" label="students">
+      <node id="families" label="families" />
+      <node id="people" label="people" />
+      <node id="needy" label="needy" />
+      <node id="young" label="young" />
+      <node id="free" label="free" />
+      <node id="rakai" label="rakai" />
+      <node id="helps" label="helps" />
+      <node id="uganda" label="uganda">
         <attvalues>
           <attvalue for="0" value="15" />
           <attvalue for="1" value="3" />
           <attvalue for="2" value="108" />
         </attvalues>
       </node>
-      <node id="kingdom" label="kingdom" />
-      <node id="study" label="study" />
-      <node id="poor" label="poor" />
-      <node id="buganda" label="buganda" />
+      <node id="education" label="education" />
+      <node id="concern" label="concern" />
     </nodes>
     <edges>
-      <edge id="0" source="students" target="poor" weight="9" />
-      <edge id="1" source="students" target="study" weight="9" />
-      <edge id="2" source="kingdom" target="buganda" weight="36" />
+      <edge id="0" source="families" target="needy" weight="9" />
+      <edge id="1" source="people" target="young" weight="9" />
+      <edge id="2" source="free" target="education" weight="16" />
+      <edge id="3" source="rakai" target="uganda" weight="25" />
+      <edge id="4" source="helps" target="concern" weight="16" />
+      <edge id="5" source="uganda" target="concern" weight="36" />
     </edges>
   </graph>
 </gexf>

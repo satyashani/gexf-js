@@ -11,10 +11,23 @@
 
 
 var loader = {
-    urlJsonFiles: 'json/',
+    urlHtmllinks: 'gexfLinks.php',
+    urlJsonFiles: '/json',
     urlGexfLocation: 'cp2/wordtree_org_topical/',
     linkboxSelector: 'ul#gexslinks',
-    loadJsonList: function(){
+    loadLinksFromHtml: function(){
+        $.ajax({
+            url: this.urlHtmlLinks,
+            success: function(data){
+                console.log(data);
+                var lb = $(this.linkboxSelector);
+                lb.empty().append($(data));
+                $('.gexflink').unbind('click').click(GexfJS.mapFromLink);
+            }
+        })
+    },
+    
+    loadLinksFromJson: function(){
         $.ajax({
             url: this.urlJsonFiles,
             success: function(data){

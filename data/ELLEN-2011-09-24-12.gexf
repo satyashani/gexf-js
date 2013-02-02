@@ -6,22 +6,19 @@
       <attribute id="2" title="size" type="integer" />
     </attributes>
     <nodes>
-      <node id="students" label="students">
+      <node id="ecde" label="ecde">
         <attvalues>
           <attvalue for="0" value="15" />
           <attvalue for="1" value="3" />
           <attvalue for="2" value="108" />
         </attvalues>
       </node>
-      <node id="kingdom" label="kingdom" />
-      <node id="study" label="study" />
-      <node id="poor" label="poor" />
-      <node id="buganda" label="buganda" />
+      <node id="highway" label="highway" />
+      <node id="centre" label="centre" />
     </nodes>
     <edges>
-      <edge id="0" source="students" target="poor" weight="9" />
-      <edge id="1" source="students" target="study" weight="9" />
-      <edge id="2" source="kingdom" target="buganda" weight="36" />
+      <edge id="0" source="ecde" target="highway" weight="16" />
+      <edge id="1" source="ecde" target="centre" weight="9" />
     </edges>
   </graph>
 </gexf>

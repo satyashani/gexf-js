@@ -525,9 +525,9 @@ GexfJS = {
         }
     },
     
-    draw : function(){
+    draw : function(force){
         GexfJS.traceMini();
-        GexfJS.traceMap();
+        GexfJS.traceMap(force);
     },
 
     traceArc : function(contexte, source, target) {
@@ -567,13 +567,15 @@ GexfJS = {
         GexfJS.imageMini = GexfJS.ctxMini.getImageData(0, 0, GexfJS.overviewWidth, GexfJS.overviewHeight);
     },
 
-    traceMap : function() {
+    traceMap : function(force) {
         GexfJS.updateWorkspaceBounds();
         
         if (!GexfJS.graph) {
             return;
         }
         var _identical = GexfJS.areParamsIdentical;
+        if(typeof force != 'undefined')
+            _identical = _identical&&(!force);
         GexfJS.p.mousePosition = ( GexfJS.p.useLens ? ( GexfJS.mousePosition ? ( GexfJS.mousePosition.x + "," + GexfJS.mousePosition.y ) : "out" ) : null );
         for (var i in GexfJS.p) {
             _identical = _identical && ( GexfJS.p[i] == GexfJS.oldParams[i] );

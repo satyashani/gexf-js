@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="color" type="integer" />
+      <attribute id="1" title="weight" type="integer" />
+      <attribute id="2" title="size" type="integer" />
+    </attributes>
+    <nodes>
+      <node id="building" label="building">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="development" label="development" />
+      <node id="school" label="school" />
+      <node id="thank" label="thank" />
+      <node id="god" label="god" />
+      <node id="helped" label="helped" />
+      <node id="asset" label="asset" />
+      <node id="fees" label="fees" />
+      <node id="organization" label="organization">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="cabda" label="cabda" />
+      <node id="really" label="really" />
+    </nodes>
+    <edges>
+      <edge id="0" source="building" target="development" weight="9" />
+      <edge id="1" source="building" target="asset" weight="9" />
+      <edge id="2" source="school" target="fees" weight="9" />
+      <edge id="3" source="thank" target="god" weight="9" />
+      <edge id="4" source="helped" target="organization" weight="9" />
+      <edge id="5" source="helped" target="really" weight="9" />
+      <edge id="6" source="organization" target="cabda" weight="9" />
+    </edges>
+  </graph>
+</gexf>

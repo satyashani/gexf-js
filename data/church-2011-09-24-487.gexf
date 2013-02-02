@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="color" type="integer" />
+      <attribute id="1" title="weight" type="integer" />
+      <attribute id="2" title="size" type="integer" />
+    </attributes>
+    <nodes>
+      <node id="shop" label="shop" />
+      <node id="cdf" label="cdf" />
+      <node id="help" label="help">
+        <attvalues>
+          <attvalue for="0" value="95" />
+          <attvalue for="1" value="19" />
+          <attvalue for="2" value="684" />
+        </attvalues>
+      </node>
+      <node id="violence" label="violence" />
+      <node id="omubeezi" label="omubeezi" />
+      <node id="money" label="money">
+        <attvalues>
+          <attvalue for="0" value="35" />
+          <attvalue for="1" value="7" />
+          <attvalue for="2" value="252" />
+        </attvalues>
+      </node>
+      <node id="lack" label="lack" />
+      <node id="mainly" label="mainly" />
+      <node id="walking" label="walking" />
+      <node id="years" label="years">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="disabled" label="disabled">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="known" label="known" />
+      <node id="tulina" label="tulina" />
+      <node id="go" label="go">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="children" label="children">
+        <attvalues>
+          <attvalue for="0" value="80" />
+          <attvalue for="1" value="16" />
+          <attvalue for="2" value="576" />
+        </attvalues>
+      </node>
+      <node id="dont" label="dont" />
+      <node id="feeding" label="feeding" />
+      <node id="based" label="based">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="thank" label="thank" />
+      <node id="pray" label="pray" />
+      <node id="organisation" label="organisation">
+        <attvalues>
+          <attvalue for="0" value="30" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="216" />
+        </attvalues>
+      </node>
+      <node id="show" label="show" />
+      <node id="young" label="young" />
+      <node id="better" label="better" />
+      <node id="loved" label="loved" />
+      <node id="going" label="going">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="parents" label="parents">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="caliptus" label="caliptus" />
+      <node id="areas" label="areas" />
+      <node id="hope" label="hope" />
+      <node id="gave" label="gave">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="masaka" label="masaka">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="pay" label="pay" />
+      <node id="good" label="good">
+        <attvalues>
+          <attvalue for="0" value="55" />
+          <attvalue for="1" value="11" />
+          <attvalue for="2" value="396" />
+        </attvalues>
+      </node>
+      <node id="affected" label="affected" />
+      <node id="get" label="get">
+        <attvalues>
+          <attvalue for="0" value="35" />
+          <attvalue for="1" value="7" />
+          <attvalue for="2" value="252" />
+        </attvalues>
+      </node>
+      <node id="food" label="food" />
+      <node id="luke" label="luke" />
+      <node id="kitale" label="kitale" />
+      <node id="begging" label="begging" />
+      <node id="displaced" label="displaced" />
+      <node id="early" label="early" />
+      <node id="ones" label="ones">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="new" label="new" />
+      <node id="schools" label="schools">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="world" label="world">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="day" label="day" />
+      <node id="group" label="group" />
+      <node id="secondary" label="secondary">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="four" label="four" />
+      <node id="school" label="school">
+        <attvalues>
+          <attvalue for="0" value="105" />
+          <attvalue for="1" value="21" />
+          <attvalue for="2" value="756" />
+        </attvalues>
+      </node>
+      <node id="lost" label="lost">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="die" label="die" />
+      <node id="orphans" label="orphans">
+        <attvalues>
+          <attvalue for="0" value="45" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="324" />
+        </attvalues>
+      </node>
+      <node id="married" label="married" />
+      <node id="brother" label="brother" />
+      <node id="standards" label="standards">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="bless" label="bless" />
+      <node id="burned" label="burned" />
+      <node id="went" label="went">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="told" label="told" />
+      <node id="nairobi" label="nairobi">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="kibera" label="kibera">
+        <attvalues>
+          <attvalue for="0" value="50" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="360" />
+        </attvalues>
+      </node>
+      <node id="programme" label="programme" />
+      <node id="kisumu" label="kisumu" />
+      <node id="development" label="development">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="set" label="set">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="old" label="old">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="leaders" label="leaders" />
+      <node id="people" label="people">
+        <attvalues>
+          <attvalue for="0" value="180" />
+          <attvalue for="1" value="36" />
+          <attvalue for="2" value="1296" />
+        </attvalues>
+      </node>
+      <node id="house" label="house" />
+      <node id="fees" label="fees" />
+      <node id="back" label="back">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="sabbath" label="sabbath" />
+      <node id="started" label="started" />
+      <node id="society" label="society" />
+      <node id="see" label="see" />
+      <node id="street" label="street">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="election" label="election">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="home" label="home" />
+      <node id="girl" label="girl" />
+      <node id="morning" label="morning" />
+      <node id="best" label="best" />
+      <node id="dissabled" label="dissabled" />
+      <node id="living" label="living">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="christ" label="christ" />
+      <node id="god" label="god">
+        <attvalues>
+          <attvalue for="0" value="60" />
+          <attvalue for="1" value="12" />
+          <attvalue for="2" value="432" />
+        </attvalues>
+      </node>
+      <node id="away" label="away" />
+      <node id="fellowship" label="fellowship">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="run" label="run" />
+      <node id="churches" label="churches">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="mashimoni" label="mashimoni">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="order" label="order" />
+      <node id="red" label="red" />
+      <node id="mathare" label="mathare">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="christian" label="christian">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="word" label="word" />
+      <node id="million" label="million" />
+      <node id="seventh" label="seventh" />
+      <node id="free" label="free" />
+      <node id="job" label="job" />
+      <node id="kirumba" label="kirumba" />
+      <node id="members" label="members">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="slum" label="slum" />
+      <node id="news" label="news" />
+      <node id="post" label="post" />
+      <node id="unnamed" label="unnamed" />
+      <node id="come" label="come" />
+      <node id="change" label="change">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="care" label="care">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="faith" label="faith" />
+      <node id="great" label="great">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="working" label="working" />
+      <node id="getting" label="getting" />
+      <node id="samaritan" label="samaritan" />
+      <node id="called" label="called" />
+      <node id="place" label="place" />
+      <node id="vision" label="vision">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="widow" label="widow" />
+      <node id="road" label="road" />
+      <node id="childrens" label="childrens" />
+      <node id="family" label="family" />
+      <node id="ground" label="ground" />
+      <node id="chased" label="chased" />
+      <node id="nongovernmental" label="nongovernmental" />
+      <node id="primary" label="primary" />
+      <node id="community" label="community">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="288" />
+        </attvalues>
+      </node>
+      <node id="jesus" label="jesus" />
+      <node id="elder" label="elder" />
+      <node id="donated" label="donated" />
+      <node id="homeless" label="homeless" />
+      <node id="church" label="church">
+        <attvalues>
+          <attvalue for="0" value="330" />
+          <attvalue for="1" value="66" />
+          <attvalue for="2" value="2376" />
+        </attvalues>
+      </node>
+      <node id="carry" label="carry" />
+      <node id="churchi" label="churchi" />
+      <node id="training" label="training" />
+      <node id="given" label="given" />
+      <node id="fee" label="fee" />
+      <node id="raise" label="raise" />
+      <node id="service" label="service" />
+      <node id="union" label="union" />
+      <node id="friends" label="friends">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="support" label="support" />
+      <node id="girls" label="girls" />
+      <node id="two" label="two" />
+      <node id="long" label="long" />
+      <node id="christianity" label="christianity" />
+      <node id="start" label="start" />
+      <node id="live" label="live">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="spread" label="spread" />
+      <node id="basic" label="basic">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="white" label="white" />
+      <node id="friend" label="friend">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="life" label="life">
+        <attvalues>
+          <attvalue for="0" value="55" />
+          <attvalue for="1" value="11" />
+          <attvalue for="2" value="396" />
+        </attvalues>
+      </node>
+      <node id="hard" label="hard" />
+      <node id="door" label="door" />
+      <node id="form" label="form" />
+      <node id="boy" label="boy" />
+      <node id="fire" label="fire">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="pastor" label="pastor" />
+      <node id="slums" label="slums" />
+      <node id="fund" label="fund">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="lives" label="lives">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="child" label="child">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="laini" label="laini" />
+      <node id="raising" label="raising" />
+      <node id="adventist" label="adventist" />
+      <node id="paying" label="paying" />
+      <node id="high" label="high" />
+      <node id="baptist" label="baptist" />
+      <node id="decided" label="decided">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="look" label="look">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="kampala" label="kampala" />
+      <node id="roof" label="roof" />
+      <node id="youth" label="youth">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="individual" label="individual" />
+      <node id="teachers" label="teachers" />
+      <node id="loves" label="loves" />
+      <node id="constituency" label="constituency" />
+      <node id="saba" label="saba" />
+      <node id="age" label="age">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="due" label="due" />
+      <node id="changed" label="changed" />
+      <node id="certain" label="certain" />
+      <node id="helped" label="helped">
+        <attvalues>
+          <attvalue for="0" value="50" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="360" />
+        </attvalues>
+      </node>
+      <node id="bwayise" label="bwayise" />
+      <node id="woman" label="woman" />
+      <node id="uganda" label="uganda" />
+      <node id="need" label="need">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="kenya" label="kenya">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="288" />
+        </attvalues>
+      </node>
+      <node id="widows" label="widows" />
+      <node id="saw" label="saw">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="vulnerable" label="vulnerable">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="ngong" label="ngong" />
+      <node id="catholic" label="catholic">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="needs" label="needs" />
+      <node id="pentecostal" label="pentecostal" />
+      <node id="needy" label="needy">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="mouse" label="mouse" />
+      <node id="self" label="self" />
+      <node id="able" label="able" />
+      <node id="cross" label="cross" />
+      <node id="vocational" label="vocational" />
+      <node id="member" label="member" />
+      <node id="far" label="far" />
+      <node id="sunday" label="sunday">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="take" label="take">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="poor" label="poor">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="may" label="may" />
+      <node id="tried" label="tried">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="kianda" label="kianda" />
+      <node id="provided" label="provided" />
+      <node id="shelter" label="shelter" />
+      <node id="time" label="time">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="different" label="different" />
+      <node id="hand" label="hand" />
+      <node id="helping" label="helping" />
+      <node id="ssaza" label="ssaza" />
+      <node id="running" label="running">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="abuse" label="abuse" />
+      <node id="services" label="services" />
+      <node id="build" label="build" />
+      <node id="totally" label="totally">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="died" label="died" />
+      <node id="man" label="man">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="180" />
+        </attvalues>
+      </node>
+      <node id="ago" label="ago" />
+      <node id="especially" label="especially" />
+      <node id="boys" label="boys" />
+      <node id="communities" label="communities" />
+      <node id="medical" label="medical">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="scholastic" label="scholastic" />
+      <node id="lwamaggwa" label="lwamaggwa" />
+      <node id="st" label="st" />
+      <node id="materials" label="materials" />
+      <node id="solve" label="solve" />
+      <node id="mother" label="mother">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="108" />
+        </attvalues>
+      </node>
+      <node id="organization" label="organization">
+        <attvalues>
+          <attvalue for="0" value="30" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="216" />
+        </attvalues>
+      </node>
+      <node id="senior" label="senior" />
+      <node id="kakamega" label="kakamega" />
+      <node id="came" label="came">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="288" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="shop" target="burned" weight="25" />
+      <edge id="1" source="cdf" target="organization" weight="16" />
+      <edge id="2" source="help" target="group" weight="36" />
+      <edge id="3" source="help" target="tried" weight="25" />
+      <edge id="4" source="help" target="people" weight="225" />
+      <edge id="5" source="help" target="needy" weight="49" />
+      <edge id="6" source="help" target="self" weight="64" />
+      <edge id="7" source="help" target="get" weight="16" />
+      <edge id="8" source="help" target="community" weight="36" />
+      <edge id="9" source="help" target="order" weight="49" />
+      <edge id="10" source="help" target="decided" weight="16" />
+      <edge id="11" source="help" target="solve" weight="16" />
+      <edge id="12" source="help" target="church" weight="25" />
+      <edge id="13" source="help" target="need" weight="16" />
+      <edge id="14" source="help" target="children" weight="16" />
+      <edge id="15" source="help" target="came" weight="49" />
+      <edge id="16" source="help" target="help" weight="25" />
+      <edge id="17" source="violence" target="election" weight="64" />
+      <edge id="18" source="omubeezi" target="tulina" weight="16" />
+      <edge id="19" source="money" target="raise" weight="36" />
+      <edge id="20" source="money" target="get" weight="36" />
+      <edge id="21" source="money" target="support" weight="25" />
+      <edge id="22" source="money" target="getting" weight="25" />
+      <edge id="23" source="money" target="begging" weight="16" />
+      <edge id="24" source="money" target="donated" weight="16" />
+      <edge id="25" source="lack" target="due" weight="36" />
+      <edge id="26" source="mainly" target="run" weight="16" />
+      <edge id="27" source="walking" target="street" weight="16" />
+      <edge id="28" source="years" target="ago" weight="225" />
+      <edge id="29" source="years" target="old" weight="64" />
+      <edge id="30" source="years" target="two" weight="100" />
+      <edge id="31" source="disabled" target="orphans" weight="16" />
+      <edge id="32" source="disabled" target="people" weight="16" />
+      <edge id="33" source="known" target="school" weight="16" />
+      <edge id="34" source="known" target="church" weight="25" />
+      <edge id="35" source="go" target="school" weight="289" />
+      <edge id="36" source="go" target="church" weight="144" />
+      <edge id="37" source="go" target="churchi" weight="16" />
+      <edge id="38" source="go" target="children" weight="49" />
+      <edge id="39" source="children" target="lost" weight="16" />
+      <edge id="40" source="children" target="needy" weight="81" />
+      <edge id="41" source="children" target="die" weight="16" />
+      <edge id="42" source="children" target="young" weight="25" />
+      <edge id="43" source="children" target="helped" weight="16" />
+      <edge id="44" source="children" target="street" weight="144" />
+      <edge id="45" source="children" target="church" weight="25" />
+      <edge id="46" source="children" target="widow" weight="25" />
+      <edge id="47" source="children" target="children" weight="16" />
+      <edge id="48" source="children" target="vulnerable" weight="25" />
+      <edge id="49" source="children" target="care" weight="25" />
+      <edge id="50" source="dont" target="people" weight="16" />
+      <edge id="51" source="feeding" target="programme" weight="49" />
+      <edge id="52" source="based" target="organization" weight="25" />
+      <edge id="53" source="based" target="community" weight="25" />
+      <edge id="54" source="based" target="church" weight="64" />
+      <edge id="55" source="thank" target="god" weight="100" />
+      <edge id="56" source="thank" target="world" weight="25" />
+      <edge id="57" source="pray" target="church" weight="36" />
+      <edge id="58" source="organisation" target="started" weight="25" />
+      <edge id="59" source="organisation" target="helped" weight="25" />
+      <edge id="60" source="organisation" target="gave" weight="36" />
+      <edge id="61" source="organisation" target="vision" weight="36" />
+      <edge id="62" source="organisation" target="church" weight="25" />
+      <edge id="63" source="show" target="ground" weight="36" />
+      <edge id="64" source="young" target="people" weight="16" />
+      <edge id="65" source="young" target="man" weight="25" />
+      <edge id="66" source="better" target="life" weight="16" />
+      <edge id="67" source="loved" target="god" weight="16" />
+      <edge id="68" source="going" target="school" weight="16" />
+      <edge id="69" source="going" target="church" weight="256" />
+      <edge id="70" source="parents" target="poor" weight="25" />
+      <edge id="71" source="parents" target="age" weight="16" />
+      <edge id="72" source="parents" target="lost" weight="16" />
+      <edge id="73" source="caliptus" target="gave" weight="25" />
+      <edge id="74" source="areas" target="slum" weight="16" />
+      <edge id="75" source="hope" target="lost" weight="16" />
+      <edge id="76" source="gave" target="church" weight="25" />
+      <edge id="77" source="masaka" target="ssaza" weight="36" />
+      <edge id="78" source="masaka" target="kirumba" weight="16" />
+      <edge id="79" source="masaka" target="uganda" weight="841" />
+      <edge id="80" source="pay" target="school" weight="169" />
+      <edge id="81" source="good" target="life" weight="36" />
+      <edge id="82" source="good" target="people" weight="25" />
+      <edge id="83" source="good" target="god" weight="16" />
+      <edge id="84" source="good" target="samaritan" weight="16" />
+      <edge id="85" source="good" target="ones" weight="16" />
+      <edge id="86" source="good" target="church" weight="12" />
+      <edge id="87" source="good" target="news" weight="64" />
+      <edge id="88" source="good" target="come" weight="36" />
+      <edge id="89" source="good" target="friend" weight="36" />
+      <edge id="90" source="affected" target="people" weight="16" />
+      <edge id="91" source="get" target="married" weight="64" />
+      <edge id="92" source="get" target="able" weight="16" />
+      <edge id="93" source="get" target="helped" weight="16" />
+      <edge id="94" source="get" target="church" weight="49" />
+      <edge id="95" source="food" target="shelter" weight="169" />
+      <edge id="96" source="luke" target="st" weight="25" />
+      <edge id="97" source="kitale" target="kenya" weight="16" />
+      <edge id="98" source="displaced" target="people" weight="16" />
+      <edge id="99" source="early" target="age" weight="25" />
+      <edge id="100" source="new" target="life" weight="36" />
+      <edge id="101" source="schools" target="churches" weight="36" />
+      <edge id="102" source="schools" target="different" weight="16" />
+      <edge id="103" source="schools" target="kibera" weight="16" />
+      <edge id="104" source="schools" target="secondary" weight="25" />
+      <edge id="105" source="world" target="vision" weight="841" />
+      <edge id="106" source="day" target="seventh" weight="36" />
+      <edge id="107" source="secondary" target="school" weight="64" />
+      <edge id="108" source="secondary" target="primary" weight="25" />
+      <edge id="109" source="four" target="senior" weight="16" />
+      <edge id="110" source="four" target="form" weight="49" />
+      <edge id="111" source="school" target="paying" weight="16" />
+      <edge id="112" source="school" target="school" weight="16" />
+      <edge id="113" source="school" target="fee" weight="16" />
+      <edge id="114" source="school" target="church" weight="12" />
+      <edge id="115" source="school" target="primary" weight="121" />
+      <edge id="116" source="school" target="back" weight="36" />
+      <edge id="117" source="school" target="high" weight="25" />
+      <edge id="118" source="school" target="sunday" weight="36" />
+      <edge id="119" source="school" target="fees" weight="1764" />
+      <edge id="120" source="school" target="churches" weight="16" />
+      <edge id="121" source="school" target="went" weight="16" />
+      <edge id="122" source="school" target="kibera" weight="25" />
+      <edge id="123" source="lost" target="people" weight="16" />
+      <edge id="124" source="orphans" target="helping" weight="36" />
+      <edge id="125" source="orphans" target="people" weight="16" />
+      <edge id="126" source="orphans" target="community" weight="25" />
+      <edge id="127" source="orphans" target="helped" weight="36" />
+      <edge id="128" source="orphans" target="widows" weight="81" />
+      <edge id="129" source="orphans" target="totally" weight="16" />
+      <edge id="130" source="orphans" target="vulnerable" weight="25" />
+      <edge id="131" source="brother" target="elder" weight="16" />
+      <edge id="132" source="standards" target="living" weight="16" />
+      <edge id="133" source="bless" target="god" weight="81" />
+      <edge id="134" source="burned" target="roof" weight="16" />
+      <edge id="135" source="went" target="god" weight="16" />
+      <edge id="136" source="went" target="back" weight="16" />
+      <edge id="137" source="went" target="church" weight="256" />
+      <edge id="138" source="told" target="mother" weight="16" />
+      <edge id="139" source="nairobi" target="kenya" weight="8836" />
+      <edge id="140" source="nairobi" target="mashimoni" weight="36" />
+      <edge id="141" source="nairobi" target="kibera" weight="1444" />
+      <edge id="142" source="nairobi" target="mathare" weight="16" />
+      <edge id="143" source="kibera" target="kianda" weight="25" />
+      <edge id="144" source="kibera" target="people" weight="25" />
+      <edge id="145" source="kibera" target="youth" weight="16" />
+      <edge id="146" source="kibera" target="individual" weight="81" />
+      <edge id="147" source="kibera" target="church" weight="12" />
+      <edge id="148" source="kisumu" target="kenya" weight="225" />
+      <edge id="149" source="development" target="fund" weight="25" />
+      <edge id="150" source="development" target="constituency" weight="36" />
+      <edge id="151" source="set" target="fire" weight="25" />
+      <edge id="152" source="set" target="man" weight="16" />
+      <edge id="153" source="old" target="woman" weight="25" />
+      <edge id="154" source="leaders" target="church" weight="144" />
+      <edge id="155" source="people" target="people" weight="16" />
+      <edge id="156" source="people" target="community" weight="169" />
+      <edge id="157" source="people" target="dissabled" weight="16" />
+      <edge id="158" source="people" target="see" weight="16" />
+      <edge id="159" source="people" target="church" weight="64" />
+      <edge id="160" source="people" target="need" weight="36" />
+      <edge id="161" source="people" target="kenya" weight="36" />
+      <edge id="162" source="people" target="saw" weight="25" />
+      <edge id="163" source="people" target="living" weight="81" />
+      <edge id="164" source="people" target="needy" weight="81" />
+      <edge id="165" source="people" target="start" weight="81" />
+      <edge id="166" source="people" target="live" weight="49" />
+      <edge id="167" source="people" target="friend" weight="36" />
+      <edge id="168" source="people" target="poor" weight="64" />
+      <edge id="169" source="people" target="life" weight="49" />
+      <edge id="170" source="people" target="million" weight="16" />
+      <edge id="171" source="people" target="helping" weight="49" />
+      <edge id="172" source="people" target="lives" weight="36" />
+      <edge id="173" source="people" target="communities" weight="16" />
+      <edge id="174" source="people" target="change" weight="16" />
+      <edge id="175" source="people" target="helped" weight="64" />
+      <edge id="176" source="people" target="especially" weight="49" />
+      <edge id="177" source="house" target="fire" weight="16" />
+      <edge id="178" source="sabbath" target="church" weight="16" />
+      <edge id="179" source="started" target="church" weight="16" />
+      <edge id="180" source="society" target="kenya" weight="49" />
+      <edge id="181" source="election" target="post" weight="121" />
+      <edge id="182" source="home" target="childrens" weight="144" />
+      <edge id="183" source="girl" target="child" weight="16" />
+      <edge id="184" source="morning" target="sunday" weight="25" />
+      <edge id="185" source="best" target="look" weight="16" />
+      <edge id="186" source="christ" target="jesus" weight="16" />
+      <edge id="187" source="god" target="word" weight="289" />
+      <edge id="188" source="god" target="may" weight="25" />
+      <edge id="189" source="god" target="loves" weight="49" />
+      <edge id="190" source="god" target="church" weight="36" />
+      <edge id="191" source="god" target="man" weight="16" />
+      <edge id="192" source="away" target="far" weight="25" />
+      <edge id="193" source="away" target="chased" weight="25" />
+      <edge id="194" source="fellowship" target="christian" weight="16" />
+      <edge id="195" source="fellowship" target="church" weight="16" />
+      <edge id="196" source="churches" target="nongovernmental" weight="25" />
+      <edge id="197" source="mashimoni" target="church" weight="16" />
+      <edge id="198" source="red" target="cross" weight="81" />
+      <edge id="199" source="mathare" target="slums" weight="16" />
+      <edge id="200" source="christian" target="union" weight="16" />
+      <edge id="201" source="christian" target="life" weight="64" />
+      <edge id="202" source="christian" target="door" weight="16" />
+      <edge id="203" source="free" target="medical" weight="25" />
+      <edge id="204" source="job" target="great" weight="16" />
+      <edge id="205" source="members" target="church" weight="25" />
+      <edge id="206" source="unnamed" target="organization" weight="81" />
+      <edge id="207" source="come" target="church" weight="36" />
+      <edge id="208" source="change" target="life" weight="25" />
+      <edge id="209" source="change" target="lives" weight="36" />
+      <edge id="210" source="change" target="tried" weight="25" />
+      <edge id="211" source="care" target="take" weight="64" />
+      <edge id="212" source="faith" target="church" weight="16" />
+      <edge id="213" source="great" target="teachers" weight="16" />
+      <edge id="214" source="working" target="hard" weight="25" />
+      <edge id="215" source="called" target="organization" weight="16" />
+      <edge id="216" source="called" target="place" weight="16" />
+      <edge id="217" source="called" target="church" weight="64" />
+      <edge id="218" source="road" target="ngong" weight="16" />
+      <edge id="219" source="family" target="live" weight="16" />
+      <edge id="220" source="community" target="church" weight="16" />
+      <edge id="221" source="community" target="kenya" weight="16" />
+      <edge id="222" source="homeless" target="totally" weight="16" />
+      <edge id="223" source="church" target="certain" weight="16" />
+      <edge id="224" source="church" target="helped" weight="16" />
+      <edge id="225" source="church" target="decided" weight="16" />
+      <edge id="226" source="church" target="church" weight="437" />
+      <edge id="227" source="church" target="pentecostal" weight="16" />
+      <edge id="228" source="church" target="saw" weight="16" />
+      <edge id="229" source="church" target="catholic" weight="1444" />
+      <edge id="230" source="church" target="service" weight="16" />
+      <edge id="231" source="church" target="member" weight="16" />
+      <edge id="232" source="church" target="sunday" weight="16" />
+      <edge id="233" source="church" target="build" weight="16" />
+      <edge id="234" source="church" target="baptist" weight="144" />
+      <edge id="235" source="church" target="bwayise" weight="49" />
+      <edge id="236" source="church" target="poor" weight="144" />
+      <edge id="237" source="church" target="life" weight="121" />
+      <edge id="238" source="church" target="tried" weight="25" />
+      <edge id="239" source="church" target="boy" weight="12" />
+      <edge id="240" source="church" target="pastor" weight="100" />
+      <edge id="241" source="church" target="hand" weight="16" />
+      <edge id="242" source="church" target="services" weight="16" />
+      <edge id="243" source="church" target="friends" weight="81" />
+      <edge id="244" source="church" target="adventist" weight="36" />
+      <edge id="245" source="church" target="look" weight="16" />
+      <edge id="246" source="church" target="youth" weight="25" />
+      <edge id="247" source="church" target="came" weight="49" />
+      <edge id="248" source="church" target="organization" weight="16" />
+      <edge id="249" source="church" target="mouse" weight="100" />
+      <edge id="250" source="carry" target="running" weight="25" />
+      <edge id="251" source="training" target="vocational" weight="25" />
+      <edge id="252" source="given" target="support" weight="16" />
+      <edge id="253" source="friends" target="came" weight="16" />
+      <edge id="254" source="support" target="need" weight="16" />
+      <edge id="255" source="girls" target="boys" weight="25" />
+      <edge id="256" source="long" target="time" weight="49" />
+      <edge id="257" source="christianity" target="spread" weight="16" />
+      <edge id="258" source="basic" target="provided" weight="16" />
+      <edge id="259" source="basic" target="needs" weight="400" />
+      <edge id="260" source="white" target="man" weight="25" />
+      <edge id="261" source="life" target="life" weight="16" />
+      <edge id="262" source="life" target="changed" weight="36" />
+      <edge id="263" source="fire" target="saw" weight="25" />
+      <edge id="264" source="fire" target="came" weight="16" />
+      <edge id="265" source="fund" target="raising" weight="36" />
+      <edge id="266" source="lives" target="changed" weight="16" />
+      <edge id="267" source="child" target="abuse" weight="49" />
+      <edge id="268" source="laini" target="saba" weight="64" />
+      <edge id="269" source="decided" target="take" weight="25" />
+      <edge id="270" source="kampala" target="uganda" weight="49" />
+      <edge id="271" source="helped" target="came" weight="25" />
+      <edge id="272" source="kenya" target="kakamega" weight="49" />
+      <edge id="273" source="catholic" target="lwamaggwa" weight="16" />
+      <edge id="274" source="needy" target="helping" weight="81" />
+      <edge id="275" source="time" target="ago" weight="16" />
+      <edge id="276" source="running" target="came" weight="16" />
+      <edge id="277" source="services" target="medical" weight="144" />
+      <edge id="278" source="died" target="mother" weight="16" />
+      <edge id="279" source="scholastic" target="materials" weight="16" />
+    </edges>
+  </graph>
+</gexf>
