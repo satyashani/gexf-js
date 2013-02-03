@@ -63,7 +63,7 @@ YH = {
         var P0 = [];
         var rmsdif = 0;
         
-        while((!YH.conv)&&runtime<5000&&YH.run){
+        while((!YH.conv)&&runtime<1000&&YH.run){
             YH.itr++;
             for(i in YH.P){
                 P0[i] = {x:YH.P[i].coords.base.x,y:YH.P[i].coords.base.y};
@@ -98,7 +98,7 @@ YH = {
         }
         var ve = (YH.N+YH.Edges.length)/5;
         if((!YH.conv)&&YH.run&&(YH.itr<ve)){
-            YH.timer = window.setTimeout(YH.calcPos, ve/5);
+            YH.timer = window.setTimeout(YH.calcPos, ve/2);
             GexfJS.draw(true);
         }else{
             window.clearTimeout(YH.timer);

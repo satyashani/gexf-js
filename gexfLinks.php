@@ -12,11 +12,26 @@
  * *************************************************************** */
 
 function getGexfLinks(){
-    $dir = './data';
+    $dir = './dataprivate';
     $files = scandir($dir);
     foreach($files as $ind_file){
         if(preg_match("/^.*\.(gexf)$/i", $ind_file))
             echo "<li><a href='$dir/$ind_file' class='gexflink btn'>".substr($ind_file,0,10)."</a></li> ";
     }
+}
+function sendGexfJson(){
+    $dir = './dataprivate';
+    $files = scandir($dir);
+    $list = array();
+    foreach($files as $ind_file){
+        if(preg_match("/^.*\.(gexf)$/i", $ind_file))
+                $list[] = array('file'=>$dir."/".$ind_file,'displayname'=>substr($ind_file,0,10));
+    }
+    header('Content-type: application/json');
+    echo json_encode($list);
+}
+$json = $_GET['json'];
+if($json&&$json='true'){
+    sendGexfJson();
 }
 ?>

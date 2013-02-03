@@ -700,11 +700,14 @@ GexfJS = {
                         }
                     }
                     if (_fs > _limTxt) {
-                        GexfJS.ctxGraphe.fillStyle = ( ( i != GexfJS.p.activeNode ) && _tagsMisEnValeur.length && ( ( !_d.isTag ) || ( _centralNode != -1 ) ) ? "rgba(60,60,60,0.7)" : "rgb(0,0,0)" );
-                        GexfJS.ctxGraphe.font = Math.floor( _fs )+"px Arial";
-                        GexfJS.ctxGraphe.textAlign = "center";
-                        GexfJS.ctxGraphe.textBaseline = "middle";
-                        GexfJS.ctxGraphe.fillText(_d.label, _d.coords.real.x, _d.coords.real.y);
+                        var labels = _d.label.split(/\\n\\r|\\r\\n|\\n|\\r/);
+                        for(var l in labels){
+                            GexfJS.ctxGraphe.fillStyle = ( ( i != GexfJS.p.activeNode ) && _tagsMisEnValeur.length && ( ( !_d.isTag ) || ( _centralNode != -1 ) ) ? "rgba(60,60,60,0.7)" : "rgb(0,0,0)" );
+                            GexfJS.ctxGraphe.font = Math.floor( _fs )+"px Arial";
+                            GexfJS.ctxGraphe.textAlign = "center";
+                            GexfJS.ctxGraphe.textBaseline = "middle";
+                            GexfJS.ctxGraphe.fillText(labels[l], _d.coords.real.x, _d.coords.real.y-((labels.length-1)/2-l)*_fs);
+                        }
                     }
                 }
             }
@@ -721,13 +724,16 @@ GexfJS = {
             GexfJS.ctxGraphe.font = "bold " + Math.floor( _fs )+"px Arial";
             GexfJS.ctxGraphe.textAlign = "center";
             GexfJS.ctxGraphe.textBaseline = "middle";
-            GexfJS.ctxGraphe.fillStyle = "rgba(255,255,250,0.8)";
-            GexfJS.ctxGraphe.fillText(_dnc.label, _dnc.coords.real.x - 2, _dnc.coords.real.y);
-            GexfJS.ctxGraphe.fillText(_dnc.label, _dnc.coords.real.x + 2, _dnc.coords.real.y);
-            GexfJS.ctxGraphe.fillText(_dnc.label, _dnc.coords.real.x, _dnc.coords.real.y - 2);
-            GexfJS.ctxGraphe.fillText(_dnc.label, _dnc.coords.real.x, _dnc.coords.real.y + 2);
-            GexfJS.ctxGraphe.fillStyle = "rgb(0,0,0)";
-            GexfJS.ctxGraphe.fillText(_dnc.label, _dnc.coords.real.x, _dnc.coords.real.y);
+            var labels = _dnc.label.split(/\\n\\r|\\r\\n|\\n|\\r/);
+            for(var l in labels){
+                GexfJS.ctxGraphe.fillStyle = "rgba(255,255,250,0.8)";
+                GexfJS.ctxGraphe.fillText(labels[l], _dnc.coords.real.x - 2, _dnc.coords.real.y-((labels.length-1)/2-l)*_fs);
+                GexfJS.ctxGraphe.fillText(labels[l], _dnc.coords.real.x + 2, _dnc.coords.real.y-((labels.length-1)/2-l)*_fs);
+                GexfJS.ctxGraphe.fillText(labels[l], _dnc.coords.real.x, _dnc.coords.real.y - 2-((labels.length-1)/2-l)*_fs);
+                GexfJS.ctxGraphe.fillText(labels[l], _dnc.coords.real.x, _dnc.coords.real.y + 2-((labels.length-1)/2-l)*_fs);
+                GexfJS.ctxGraphe.fillStyle = "rgb(0,0,0)";
+                GexfJS.ctxGraphe.fillText(labels[l], _dnc.coords.real.x, _dnc.coords.real.y-((labels.length-1)/2-l)*_fs);
+            }
         }
 
         GexfJS.ctxMini.putImageData(GexfJS.imageMini, 0, 0);

@@ -12,15 +12,15 @@
 
 var loader = {
     urlHtmllinks: 'gexfLinks.php',
-    urlJsonFiles: '/json',
-    urlGexfLocation: 'cp2/wordtree_org_topical/',
-    linkboxSelector: 'ul#gexslinks',
+    urlJsonLinks: 'gexfLinks.php?json=true',
+    urlOrgJsonFiles: '/json',
+    urlOrgGexf: 'cp2/wordtree_org_topical/',
+    linkboxSelector: 'ul#gexflinks',
     loadLinksFromHtml: function(){
         $.ajax({
-            url: this.urlHtmlLinks,
+            url: loader.urlHtmlLinks,
             success: function(data){
-                console.log(data);
-                var lb = $(this.linkboxSelector);
+                var lb = $(loader.linkboxSelector);
                 lb.empty().append($(data));
                 $('.gexflink').unbind('click').click(GexfJS.mapFromLink);
             }
@@ -29,10 +29,29 @@ var loader = {
     
     loadLinksFromJson: function(){
         $.ajax({
-            url: this.urlJsonFiles,
+            url: loader.urlJsonLinks,
+            dataType: 'json',
+            success: function(data){
+                var lb = $(loader.linkboxSelector);
+                lb.empty();
+                var li = {},a={};
+                for(var i in data){
+                    li = $('<li></li>');
+                    lb.append(li);
+                    a = $("<a href='./"+data[i].file+"' class='gexflink btn'>"+data[i].displayname+"</a>")
+                    li.append(a);
+                }
+                $('.gexflink').unbind('click').click(GexfJS.mapFromLink);
+            }
+        })
+    },
+    
+    loadLinksFromDirListing: function(){
+        $.ajax({
+            url: loader.urlOrgJsonFiles,
             success: function(data){
                 var links = $(data).find('a[href~="json"]');
-                var lb = $(this.linkboxSelector);
+                var lb = $(loader.linkboxSelector);
                 lb.empty();
                 var li = {};
                 links.each(function(){
@@ -51,7 +70,7 @@ var loader = {
         var href = $(this).attr('href');
         if(href.indexOf(".json")!=-1){
             $.ajax({
-                url: loader.urlGexfLocation+href,
+                url: loader.urlOrgGexf+href,
                 dataType: 'json',
                 success: function(data){
                     if(data.success){

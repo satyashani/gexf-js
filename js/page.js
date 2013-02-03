@@ -268,7 +268,7 @@ $(document).ready(function() {
         }
     }
     GexfJS.init({
-        graphFile : "./data/Acces-2011-09-24-23.gexf",
+        graphFile : "./dataprivate/Acces-2011-09-24-23.gexf",
             /*
                 The GEXF file to show ! -- can be overriden by adding
                 a hash to the document location, e.g. index.html#celegans.gexf
@@ -345,8 +345,9 @@ $(document).ready(function() {
     
     $("#leftcolumn").css({'top':$("#titlebar").height() + "px"});
     
-    $('.gexflink').click(GexfJS.mapFromLink);
-//    loader.loadLinksFromHtml()
+//    $('.gexflink').click(GexfJS.mapFromLink);
+//    loader.loadLinksFromDirListing();
+    loader.loadLinksFromJson();
     $("#searchinput")
         .focus(function() {
             if ( $(this).is('.grey') ) {
