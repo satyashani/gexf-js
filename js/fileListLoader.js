@@ -11,18 +11,26 @@
 
 
 var loader = {
-    urlHtmllinks: 'gexfLinks.php',
-    urlJsonLinks: 'gexfLinks.php?json=true',
-    urlOrgJsonFiles: '/json',
-    urlOrgGexf: 'cp2/wordtree_org_topical/',
+    urlHtmllinks: 'http://djotjog.com/gexf-web/gexfLinks.php',
+    urlJsonLinks: 'http://djotjog.com/gexf-web/gexfLinks.php?json=true',
+    urlOrgJsonFiles: 'http://djotjog.com/json',
+    urlOrgGexf: 'http://djotjog.com/cp2/wordtree_org_topical/',
     linkboxSelector: 'ul#gexflinks',
+    showLoading: function(){
+        $('#loadinggif').show();
+    },
+    hideLoading: function(){
+        $('#loadinggif').hide();
+    },
     loadLinksFromHtml: function(){
         $.ajax({
             url: loader.urlHtmlLinks,
+            beforeSend: loader.showLoading,
             success: function(data){
                 var lb = $(loader.linkboxSelector);
                 lb.empty().append($(data));
                 $('.gexflink').unbind('click').click(GexfJS.mapFromLink);
+                loader.hideLoading();
             }
         })
     },
@@ -31,6 +39,7 @@ var loader = {
         $.ajax({
             url: loader.urlJsonLinks,
             dataType: 'json',
+            beforeSend: loader.showLoading,
             success: function(data){
                 var lb = $(loader.linkboxSelector);
                 lb.empty();
@@ -42,6 +51,7 @@ var loader = {
                     li.append(a);
                 }
                 $('.gexflink').unbind('click').click(GexfJS.mapFromLink);
+                loader.hideLoading();
             }
         })
     },
@@ -49,18 +59,21 @@ var loader = {
     loadLinksFromDirListing: function(){
         $.ajax({
             url: loader.urlOrgJsonFiles,
+            beforeSend: loader.showLoading,
             success: function(data){
-                var links = $(data).find('a[href~="json"]');
+                var links = $(data).find('a[href$="json"]');
                 var lb = $(loader.linkboxSelector);
                 lb.empty();
+                $('.gexflink').unbind('click')
                 var li = {};
                 links.each(function(){
                     li = $('<li></li>');
                     lb.append(li);
-                    li.append(this);
-                    this.addClass('gexflink btn');
+                    $(this).text($(this).text().replace('.json',''));
+                    li.append($(this));
+                    $(this).addClass('gexflink btn').click(loader.loadGexfFromJson);
                 })
-                $('.gexflink').unbind('click').click(loader.loadGexfFromJson)
+                loader.hideLoading();
             }
         })
     },
@@ -74,7 +87,7 @@ var loader = {
                 dataType: 'json',
                 success: function(data){
                     if(data.success){
-                        GexfJS.loadAndDrawGraph(data.file);
+                        GexfJS.loadAndDrawGraph("http://"+data.file);
                     }
                 }
             })

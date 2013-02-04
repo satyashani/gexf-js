@@ -29,8 +29,8 @@ FR = {
         var area = FR.width*FR.height;
         var nodes = GexfJS.graph.nodeList;
         var edges = GexfJS.graph.edgeList
-        var coef = 0.1;     //Importance of force constant, higher = more replusion
-        var cl=1; //a constant calculated to separate highly connected nodes further apart
+        var coef = 0.2;     //Importance of force constant, higher = more replusion
+        var cl=2; //a constant calculated to separate highly connected nodes further apart
         FR.k = coef*Math.sqrt(area/nodes.length);
         var t = Math.sqrt(area),del,itr=1;
         

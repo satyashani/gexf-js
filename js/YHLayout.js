@@ -46,8 +46,8 @@ YH = {
         YH.tol=0.1;
         YH.conv = false;
         YH.N=GexfJS.graph.nodeList.length;
-        YH.CR= 0.4;     //Importance of repulsive force constant, higher = more replusion
-        YH.CA= Math.pow(YH.N, 0.25);     //Importance of attractive force constant, higher = more attraction
+        YH.CR= 2;     //Importance of repulsive force constant, higher = more replusion
+        YH.CA= Math.pow(YH.N, 0.20);     //Importance of attractive force constant, higher = more attraction
         YH.k = Math.sqrt(area/YH.N);
         YH.E = 100000,
         console.log("nodes : "+YH.N+" edges: "+YH.Edges.length);

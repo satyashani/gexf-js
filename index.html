@@ -10,7 +10,7 @@
         <script type="text/javascript">
         // Fallback in case JQuery CDN isn't available
             if (typeof jQuery == 'undefined') {
-                document.write(unescape("%3Cscript type='text/javascript' src='js/jquery-1.7.2.min.js'%3E%3C/script%3E"));
+                document.write(unescape("%3Cscript type='text/javascript' src='../jquery/jquery.min.js'%3E%3C/script%3E"));
             }
         </script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -40,35 +40,12 @@
                     <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu" id="gexflinks">
-                        <li>
-                            <a href="./data/miserables.gexf" class="gexflink btn" title="miserables.gexf">Miserables</a>
-                        </li>
-                        <li>
-                            <a href="./data/celegans.gexf" class="gexflink btn" title="celegans.gexf">Celegans</a>
-                        </li>
-                        <li>
-                            <a href="./data/Acces-2011-09-24-23.gexf" class="gexflink btn" title="1.gexf">Access</a>
-                        </li>
-                        <li>
-                            <a href="./data/ADRA-2011-09-24-19.gexf" class="gexflink btn" title="2.gexf">ADRA</a>
-                        </li>
-                        <li>
-                            <a href="./data/AFRICA-2011-09-24-39.gexf" class="gexflink btn" title="3.gexf">AFRICA</a>
-                        </li>
-                        <li>
-                            <a href="./data/Agency-2011-09-24-29.gexf" class="gexflink btn" title="3.gexf">Agency</a>
-                        </li>
-                        <li>
-                            <a href="./data/ALL-2011-09-24-3440.gexf" class="gexflink btn" title="3.gexf">All</a>
-                        </li>
-                        <li>
-                            <a href="./data/AMREF-2011-09-24-197.gexf" class="gexflink btn" title="3.gexf">AMREF</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
-            <div class="span2">
-                <a class="btn btn-primary" href="./GexfJS_doc.txt" title="GexfJS Doc.gexf">GexfJS Doc</a>
+            <div class="span1" style="display: none;" id="loadinggif">
+                <img src="./img/loading.gif" />
             </div>
         </div>
         <div id="zonecentre" class="gradient">

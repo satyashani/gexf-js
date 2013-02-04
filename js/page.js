@@ -268,7 +268,7 @@ $(document).ready(function() {
         }
     }
     GexfJS.init({
-        graphFile : "./dataprivate/Acces-2011-09-24-23.gexf",
+        graphFile : "../gexf/org_topical/632-gg_org_id-2012-12-18-topical.gexf",
             /*
                 The GEXF file to show ! -- can be overriden by adding
                 a hash to the document location, e.g. index.html#celegans.gexf
