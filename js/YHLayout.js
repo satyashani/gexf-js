@@ -38,6 +38,8 @@ YH = {
     
     start: function(){
         YH.itr=0;
+        YH.step = 25;
+        YH.run = true;
         YH.width = GexfJS.graphZone.width;
         YH.height = GexfJS.graphZone.height;
         var area = YH.width*YH.height;
@@ -55,7 +57,6 @@ YH = {
     },
     
     calcPos : function(){
-        YH.run = true;
         YH.startTime = new Date().getTime();
         var runtime = new Date().getTime() - YH.startTime;
         var i=0,j=0,c=1;
@@ -64,6 +65,7 @@ YH = {
         var rmsdif = 0;
         
         while((!YH.conv)&&runtime<1000&&YH.run){
+            console.log("itr = "+YH.itr)
             YH.itr++;
             for(i in YH.P){
                 P0[i] = {x:YH.P[i].coords.base.x,y:YH.P[i].coords.base.y};
@@ -96,9 +98,10 @@ YH = {
             if(rmsdif<YH.k*YH.tol) YH.conv=true;
             runtime = new Date().getTime() - YH.startTime;
         }
-        var ve = (YH.N+YH.Edges.length)/5;
+        var ve = (YH.N+YH.Edges.length);
+        console.log("converged: "+YH.conv+", itr="+YH.itr+",ve:"+ve+",run:"+YH.run);
         if((!YH.conv)&&YH.run&&(YH.itr<ve)){
-            YH.timer = window.setTimeout(YH.calcPos, ve/2);
+            YH.timer = window.setTimeout(YH.calcPos, ve/10);
             GexfJS.draw(true);
         }else{
             window.clearTimeout(YH.timer);
@@ -132,7 +135,8 @@ YH = {
     fr  : function(i,j,cl){
         var v = YH.minus(YH.P[i].coords.base, YH.P[j].coords.base)
         var d = FR.mod(v),c=0;
-        if(d ==0){
+        var mind = YH.P[i].coords.base.r + YH.P[j].coords.base.r;
+        if(d <mind){
             d = 0.01;
             c = (YH.CR*YH.CR*YH.k*YH.k)*cl/(d*d);
         }else{

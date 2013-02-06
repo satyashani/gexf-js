@@ -50,7 +50,9 @@ i18n = {
         "edgeOff" : "Hide edges",
         "zoomIn" : "Zoom In",
         "zoomOut" : "Zoom Out",
-        "browserErr" : 'Your browser cannot properly display this page.<br />We recommend you use the latest <a href="http://www.mozilla.com/" target="_blank">Firefox</a> or <a href="http://www.google.com/chrome/" target="_blank">Chrome</a> version'
+        "browserErr" : 'Your browser cannot properly display this page.<br />We recommend you use the latest <a href="http://www.mozilla.com/" target="_blank">Firefox</a> or <a href="http://www.google.com/chrome/" target="_blank">Chrome</a> version',
+        "layoutOn" : "Use layout method",
+        "layoutOff": "Use random position"
     },
     "es" : {
         "search" : "Buscar un nodo",
@@ -258,76 +260,20 @@ function updateAutoComplete(_sender) {
     _ac.show();
 }
 
-$(document).ready(function() {
-    var msg = {
-        show: function(data){
-            $('#messagebar').show().html(data);
-        },
-        hide: function(){
-            $('#messagebar').fadeOut().html("");
-        }
+var msg = {
+    show: function(data){
+        $('#messagebar').show().html(data);
+    },
+    hide: function(){
+        $('#messagebar').fadeOut().html("");
     }
-    GexfJS.init({
-        graphFile : "../gexf/org_topical/632-gg_org_id-2012-12-18-topical.gexf",
-            /*
-                The GEXF file to show ! -- can be overriden by adding
-                a hash to the document location, e.g. index.html#celegans.gexf
-            */
-        showEdges : true,
-            /*
-                Default state of the "show edges" button
-            */
-        useLens : false,
-            /*
-                Default state of the "use lens" button
-            */
-        zoomLevel : -1,
-            /*
-                Default zoom level. At zoom = 0, the graph should fill a 800x700px zone
-             */
-        curvedEdges : false,
-            /*
-                False for curved edges, true for straight edges
-                this setting can't be changed from the User Interface
-            */
-        edgeWidthFactor : 0.1,
-            /*
-                Change this parameter for wider or narrower edges
-                this setting can't be changed from the User Interface
-            */
-        minEdgeWidth : 10,
-        maxEdgeWidth : 50,
-        minNodeSize  : 5,
-        maxNodeSize  : 20,
-        nodeSizeFactor : 1,
-        mainDivTop : $("#titlebar").height() + "px",
-            /*
-                Change this parameter for smaller or larger nodes
-               this setting can't be changed from the User Interface
-            */
-        replaceUrls : true,
-            /*
-                Enable the replacement of Urls by Hyperlinks
-                this setting can't be changed from the User Interface
-            */
-        showEdgeWeight : true,
-            /*
-                Show the weight of edges in the list
-                this setting can't be changed from the User Interface
-            */
-        language: false,
-            /*
-                Set to an ISO language code to switch the interface to that language.
-                Available languages are English [en], French [fr], Spanish [es],
-                Italian [it], Finnish [fi], Turkish [tr] and Greek [el].
-                If set to false, the language will be that of the user's browser.
-            */
-        useLayout : true,
-        layoutClass : YH,
-        messageShow : msg.show,
-        messageHide : msg.hide
-    });
+}
 
+$(document).ready(function() {
+    //Start GexfJS with a conf
+    
+    
+    //set language
     var lang = (
         typeof GexfJS.p.language != "undefined" && GexfJS.p.language
         ? GexfJS.p.language
@@ -343,11 +289,7 @@ $(document).ready(function() {
     );
     i18n.lang = (i18n[lang] ? lang : "en");
     
-    $("#leftcolumn").css({'top':$("#titlebar").height() + "px"});
-    
-//    $('.gexflink').click(GexfJS.mapFromLink);
-//    loader.loadLinksFromDirListing();
-    loader.loadLinksFromJson();
+    //Page events
     $("#searchinput")
         .focus(function() {
             if ( $(this).is('.grey') ) {
@@ -402,12 +344,19 @@ $(document).ready(function() {
     
     $("#zoomMinusButton").attr("title", i18n.strLang("zoomOut"));
     $("#zoomPlusButton").attr("title", i18n.strLang("zoomIn"));
+    $("#lensButton").attr("title", i18n.strLang("zoomOut"));
+    $("#zoomPlusButton").attr("title", i18n.strLang("zoomIn"));
+    $("#zoomMinusButton").attr("title", i18n.strLang("zoomOut"));
+    $("#zoomPlusButton").attr("title", i18n.strLang("zoomIn"));
     
     $("#zoomMinusButton").click(GexfJS.zoomout)
     $("#zoomPlusButton").click(GexfJS.zoomin)
-    $("#lensButton").click(GexfJS.toggleLens);
-    $("#edgesButton").click(GexfJS.toggleEdges);
-    $("#FRButton").click(GexfJS.toggleLayoutUse);
+    $("#lensButton").click(GexfJS.toggleLens)
+        .attr("title", i18n.strLang(GexfJS.p.useLens ? "lensOff" : "lensOn" ));
+    $("#edgesButton").click(GexfJS.toggleEdges)
+        .attr("title", i18n.strLang( GexfJS.p.showEdges ? "edgeOff" : "edgeOn" ) );
+    $("#FRButton").click(GexfJS.toggleLayoutUse)
+        .attr("title", i18n.strLang( GexfJS.p.useLayout ? "layoutOff" : "layoutOn" ) );;
     
     $(document).click(function(evt) {
         $("#autocomplete").slideUp();

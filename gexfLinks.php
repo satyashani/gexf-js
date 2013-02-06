@@ -11,7 +11,7 @@
  * 
  * *************************************************************** */
 
-$gexffilesdir = "../gexf/org_topical";
+$gexffilesdir = "./dataprivate";
 function sendGexfJson($dir){
     $files = scandir($dir);
     $list = array();

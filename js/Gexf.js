@@ -67,14 +67,14 @@ GexfJS = {
     },
     toggleLens : function(){
         $(this).attr("class",GexfJS.p.useLens?"":"off")
-            .attr("title", i18n.strLang( GexfJS.p.showEdges ? "lensOff" : "lensOn" ) );
+            .attr("title", i18n.strLang( GexfJS.p.useLens ? "lensOn" : "lensOff" ) );
         GexfJS.p.useLens = !GexfJS.p.useLens;
         GexfJS.draw();
         return false;
     },
     toggleEdges : function(){
         $(this).attr("class",GexfJS.p.showEdges?"":"off")
-            .attr("title", i18n.strLang( GexfJS.p.showEdges ? "edgeOff" : "edgeOn" ) );
+            .attr("title", i18n.strLang( GexfJS.p.showEdges ? "edgeOn" : "edgeOff" ) );
         GexfJS.p.showEdges = !GexfJS.p.showEdges;
         GexfJS.draw();
         return false;
@@ -83,10 +83,10 @@ GexfJS = {
         if(GexfJS.p.useLayout){
             GexfJS.p.useLayout = false;
             GexfJS.p.layoutClass.stop();
-            $(this).addClass('off');
+            $(this).addClass('off').attr("title", i18n.strLang("layoutOn" ) );
         }else{
             GexfJS.p.useLayout = true;
-            $(this).removeClass('off');
+            $(this).removeClass('off').attr("title", i18n.strLang("layoutOff" ) );
             GexfJS.p.layoutClass.start();
         }
     },
@@ -226,10 +226,12 @@ GexfJS = {
                 _size = _n.find('attvalue[for="'+_sizeid+'"]').attr('value');
                 _size = isNaN(_size)?5:_size;
             }
-
+            if(!_col.size()) _col = _n.find("color");
+//            if(!_col.size()) _col = _n.children().eq(0);
             if(!_col.size()){
                 var color = _n.find('attvalue[for="'+_colorid+'"]').attr('value') || 150;
                 _r = _g = _b = color;
+                console.log("colors not found");
             }else{
                 _r = _col.attr("r");
                 _g = _col.attr("g");
@@ -354,11 +356,11 @@ GexfJS = {
         }
         if(GexfJS.p.useLayout){
             GexfJS.messageShow("Creating Layout..");
-            GexfJS.messageHide();
             GexfJS.p.layoutClass.start();
         }
         else
             GexfJS.draw();
+        GexfJS.messageHide();
 
     },
     
@@ -657,7 +659,7 @@ GexfJS = {
                 GexfJS.ctxGraphe.lineWidth = _edgeSizeFactor * _d.width;
                 var _coords = ( ( GexfJS.p.useLens && GexfJS.mousePosition ) ? GexfJS.calcCoord( GexfJS.mousePosition.x , GexfJS.mousePosition.y , _ds.coords.actual ) : _ds.coords.actual );
                 _coordt = ( (GexfJS.p.useLens && GexfJS.mousePosition) ? GexfJS.calcCoord( GexfJS.mousePosition.x , GexfJS.mousePosition.y , _dt.coords.actual ) : _dt.coords.actual );
-                GexfJS.ctxGraphe.strokeStyle = ( _isLinked ? _d.color : "rgba(100,100,100,0.2)" );
+                GexfJS.ctxGraphe.strokeStyle = ( _isLinked ? _d.color : "rgba(213,216,219,0.2)" );
                 GexfJS.traceArc(GexfJS.ctxGraphe, _coords, _coordt);
             }
         }
