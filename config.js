@@ -32,11 +32,12 @@ var config = {
 }
     setconf(config);
     GexfJS.init({
-        graphFile : "dataprivate/actual.gexf",
+        graphFile : "data/miserables.gexf",
         showEdges : true,
+        developer: false,
         useLens : false,
         zoomLevel : -1,
-        curvedEdges : false, 
+        curvedEdges : true, 
         edgeWidthFactor : 0.1, // Higher = wider edges
         //Thinnest and thickest edges and smallest and largest nodes, in pixels
         minEdgeWidth : 10,

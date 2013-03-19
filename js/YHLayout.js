@@ -51,8 +51,9 @@ YH = {
         YH.CR= 2;     //Importance of repulsive force constant, higher = more replusion
         YH.CA= Math.pow(YH.N, 0.20);     //Importance of attractive force constant, higher = more attraction
         YH.k = Math.sqrt(area/YH.N);
-        YH.E = 100000,
-        console.log("nodes : "+YH.N+" edges: "+YH.Edges.length);
+        YH.E = 100000;
+        if(GexfJS.p.developer)
+            console.log("nodes : "+YH.N+" edges: "+YH.Edges.length);
         YH.calcPos();
     },
     
@@ -65,7 +66,8 @@ YH = {
         var rmsdif = 0;
         
         while((!YH.conv)&&runtime<1000&&YH.run){
-            console.log("itr = "+YH.itr)
+            if(GexfJS.p.developer)
+                console.log("itr = "+YH.itr)
             YH.itr++;
             for(i in YH.P){
                 P0[i] = {x:YH.P[i].coords.base.x,y:YH.P[i].coords.base.y};
@@ -99,7 +101,8 @@ YH = {
             runtime = new Date().getTime() - YH.startTime;
         }
         var ve = (YH.N+YH.Edges.length);
-        console.log("converged: "+YH.conv+", itr="+YH.itr+",ve:"+ve+",run:"+YH.run);
+        if(GexfJS.p.developer)
+            console.log("converged: "+YH.conv+", itr="+YH.itr+",ve:"+ve+",run:"+YH.run);
         if((!YH.conv)&&YH.run&&(YH.itr<ve)){
             YH.timer = window.setTimeout(YH.calcPos, ve/10);
             GexfJS.draw(true);

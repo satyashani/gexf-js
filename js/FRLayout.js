@@ -41,7 +41,8 @@ FR = {
         FR.k = FR.coef*Math.sqrt(area/FR.P.length);
         FR.t = Math.sqrt(area);
         
-        console.log("starting FR layout for N="+FR.P.length+", E="+FR.edges.length);
+        if(GexfJS.p.developer)
+            console.log("starting FR layout for N="+FR.P.length+", E="+FR.edges.length);
         for(var i in FR.P){
             FR.P[i].degree = 1;
         }
@@ -91,7 +92,8 @@ FR = {
         }
         
         var ve = (FR.P.length+FR.edges.length);
-        console.log("converged: "+FR.conv+", itr="+FR.itr+",ve:"+ve+",run:"+FR.run);
+        if(GexfJS.p.developer)
+            console.log("converged: "+FR.conv+", itr="+FR.itr+",ve:"+ve+",run:"+FR.run);
         if((!FR.conv)&&FR.run&&(FR.itr<ve)){
             FR.timer = window.setTimeout(FR.calcPos, ve/10);
             GexfJS.draw(true);

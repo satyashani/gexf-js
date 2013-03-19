@@ -54,7 +54,8 @@ Load = {
                 Load.hideLoading();
             },
             error: function(jxr,s,e){
-                console.log(s+" error: "+e);
+                if(console&&console.log)
+                    console.log(s+" error: "+e);
             }
         })
     },
